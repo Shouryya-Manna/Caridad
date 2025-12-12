@@ -1,6 +1,6 @@
 export const HeaderData = [
   {
-    label: "Home",
+    menu: "Home",
     submenu: [
       "Disease",
       "Children Aid",
@@ -10,7 +10,7 @@ export const HeaderData = [
     ],
   },
   {
-    label: "About Us",
+    menu: "About Us",
     submenu: [
       "About Us",
       "Our Pillars",
@@ -21,7 +21,7 @@ export const HeaderData = [
     ],
   },
   {
-    label: "What We Do",
+    menu: "What We Do",
     submenu: [
       "What We Do",
       "Empower Young People",
@@ -32,7 +32,7 @@ export const HeaderData = [
     ],
   },
   {
-    label: "Get Involved",
+    menu: "Get Involved",
     submenu: [
       "Get Involved",
       "Take Action",
