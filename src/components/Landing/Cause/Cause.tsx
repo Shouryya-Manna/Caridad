@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Cause() {
   return (
-    <div className="bg-primary items-center flex flex-col py-10">
+    <div className="items-center flex flex-col py-10">
       <div>CAUSE</div>
 
       <div className="flex items-center justify-center">

@@ -4,7 +4,7 @@ import { Bars2Icon } from "@heroicons/react/16/solid";
 
 export default function Header() {
   return (
-    <div className="flex justify-between items-center bg-primary px-30 py-5">
+    <div className="flex justify-between items-center px-30 py-5">
       {/* Logo */}
       <div>
         <img src="logo.png"></img>

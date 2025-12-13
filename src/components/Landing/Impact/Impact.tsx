@@ -1,5 +1,13 @@
 import React from "react";
 
 export default function Impact() {
-  return <div>Impact</div>;
+  return (
+    <div>
+      <div>IMPACT</div>
+      <p>
+        Helping women now through early detection,
+        education, and support
+      </p>
+    </div>
+  );
 }

@@ -11,9 +11,12 @@ import Mission from "@/components/Landing/Mission/Mission";
 export default function LandingPage() {
   return (
     <div>
-      <Header />
-      <Mission />
-      <Cause />
+      <div className="bg-primary">
+        <Header />
+        <Mission />
+        <Cause />
+      </div>
+
       <Help />
       <Impact />
       <Donation />
