@@ -3,24 +3,23 @@ import React from "react";
 
 export default function Cause() {
   return (
-    <div className="bg-primary items-center flex flex-col">
+    <div className="bg-primary items-center flex flex-col py-10">
       <div>CAUSE</div>
 
       <div className="flex items-center justify-center">
         {/* Image */}
         <div>
-          <img src="/Woman2.png"></img>
-
           {/* Floating text */}
           <span className="">
             Support groundebreaking research to
             help others
           </span>
+          <img src="/Woman2.png"></img>
         </div>
 
         {/* Paragraph div */}
         <div>
-          <p>
+          <p className="whitespace-normal max-w-md">
             So many younger women are being
             diagnosed with breast cancer and are
             dying needlessly. It's critical that
