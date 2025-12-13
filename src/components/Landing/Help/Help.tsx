@@ -1,5 +1,11 @@
 import React from "react";
 
 export default function Help() {
-  return <div>Help</div>;
+  return (
+    <div>
+      <div>WHAT WE DO</div>
+      <div>How we help</div>
+      <div></div>
+    </div>
+  );
 }

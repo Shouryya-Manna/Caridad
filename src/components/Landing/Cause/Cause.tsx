@@ -3,16 +3,16 @@ import React from "react";
 
 export default function Cause() {
   return (
-    <div className="bg-primary items-center">
+    <div className="bg-primary items-center flex flex-col">
       <div>CAUSE</div>
 
-      <div className="flex">
+      <div className="flex items-center justify-center">
         {/* Image */}
         <div>
           <img src="/Woman2.png"></img>
 
           {/* Floating text */}
-          <span>
+          <span className="">
             Support groundebreaking research to
             help others
           </span>

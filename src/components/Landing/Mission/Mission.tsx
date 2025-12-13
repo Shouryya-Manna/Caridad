@@ -1,6 +1,6 @@
 export default function Mission() {
   return (
-    <div className="bg-primary items-center">
+    <div className="bg-primary items-center flex flex-col py-10">
       <div>OUR MISSION IS SIMPLE</div>
       <div className="flex">
         {/* "Floating" looking text */}
