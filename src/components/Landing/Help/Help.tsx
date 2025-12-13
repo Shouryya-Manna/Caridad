@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Help() {
   return (
-    <div className="flex items-center flex-col py-10">
+    <div className="flex items-center flex-col my-10 mx-10">
       <div>WHAT WE DO</div>
       <div>How we help</div>
       <div>

@@ -17,7 +17,7 @@ export default function Header() {
             key={index}
             className="relative group"
           >
-            <div className="cursor-pointer px-2 py-1 group-hover:underline underline-offset-4 text-xl">
+            <div className="cursor-pointer px-2 py-1 group-hover:underline underline-offset-4 text-xl font-stretch-50%">
               {item.menu}
             </div>
 
@@ -44,7 +44,7 @@ export default function Header() {
 
       {/* Buttons */}
       <div className="flex gap-10">
-        <Bars2Icon className="h-8 w-8 cursor-pointer" />
+        <Bars2Icon className="h-8 w-8 cursor-pointer my-3" />
         <Button
           className="cursor-pointer hover:bg-black hover:text-white rounded-4xl h-14 w-32"
           variant="outline"
