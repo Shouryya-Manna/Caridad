@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="relative z-50 flex justify-between items-center px-30 py-5">
+    <header className="relative z-50 flex justify-center gap-30 py-5 items-center">
       {/* Logo */}
       <div className="relative h-[50px] w-[200px] shrink-0">
         <Image
