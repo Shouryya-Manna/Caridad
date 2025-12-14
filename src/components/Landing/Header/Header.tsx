@@ -26,8 +26,7 @@ export default function Header() {
               className="
             absolute left-0 mt-1 bg-black w-fit text-white px-6 py-4
             opacity-0 invisible group-hover:opacity-100 group-hover:visible
-            transition-all duration-200 whitespace-nowrap
-"
+            transition-all duration-200 whitespace-nowrap"
             >
               {item.submenu.map((sub, index) => (
                 <div
