@@ -1,32 +1,39 @@
 import { Button } from "@/components/ui/button";
 import { HeaderData } from "@/data/Header.data";
 import { Bars2Icon } from "@heroicons/react/16/solid";
+import Image from "next/image";
 
 export default function Header() {
   return (
-    <div className="flex justify-between items-center px-30 py-5">
+    <header className="relative z-50 flex justify-between items-center px-30 py-5">
       {/* Logo */}
-      <div>
-        <img src="logo.png"></img>
+      <div className="relative h-[50px] w-[200px] shrink-0">
+        <Image
+          src="/logo.png"
+          alt=""
+          fill
+          className="object-cover"
+        />
       </div>
 
       {/* Navigation */}
-      <div className="flex gap-5">
+      <nav className="flex gap-5">
         {HeaderData.map((item, index) => (
           <div
             key={index}
             className="relative group"
           >
-            <div className="cursor-pointer px-2 py-1 group-hover:underline underline-offset-4 text-xl font-stretch-50%">
+            <div className="cursor-pointer px-2 py-1 group-hover:underline underline-offset-4 text-xl">
               {item.menu}
             </div>
 
             {/* Dropdown */}
             <div
               className="
-            absolute left-0 mt-1 bg-black w-fit text-white px-6 py-4
-            opacity-0 invisible group-hover:opacity-100 group-hover:visible
-            transition-all duration-200 whitespace-nowrap"
+                absolute left-0 mt-2 z-50
+                bg-black w-fit text-white px-6 py-4
+                opacity-0 invisible group-hover:opacity-100 group-hover:visible
+                transition-all duration-200 whitespace-nowrap"
             >
               {item.submenu.map((sub, index) => (
                 <div
@@ -39,7 +46,7 @@ export default function Header() {
             </div>
           </div>
         ))}
-      </div>
+      </nav>
 
       {/* Buttons */}
       <div className="flex gap-10">
@@ -51,6 +58,6 @@ export default function Header() {
           Donate
         </Button>
       </div>
-    </div>
+    </header>
   );
 }
