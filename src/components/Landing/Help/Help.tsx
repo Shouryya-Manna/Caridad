@@ -32,7 +32,7 @@ export default function Help() {
           {HelpData.map((item, index) => (
             <AccordionItem
               key={index}
-              value={`item-${index}`}
+              value={`item+${index}`}
               className="border-0"
             >
               <AccordionTrigger className="group flex items-center justify-between py-6 text-left text-lg font-semibold hover:no-underline">
