@@ -1,4 +1,4 @@
-export const events = [
+export const EventData = [
   {
     date: "08",
     month: "Mar",

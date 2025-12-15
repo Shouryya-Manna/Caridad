@@ -17,7 +17,6 @@ export default function Mission() {
             breast <br />
             cancer
           </div>
-
           <button className="my-4 text-sm font-bold text-black cursor-pointer">
             Learn more
           </button>

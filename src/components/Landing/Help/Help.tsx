@@ -10,8 +10,8 @@ import { Plus, X } from "lucide-react";
 
 export default function Help() {
   return (
-    <section className="mx-20 my-20">
-      <div className="mx-auto flex flex-col max-w-6xl items-center justify-center gap-10 ">
+    <section className="mx-20 py-20 my-20">
+      <div className="mx-auto flex flex-col max-w-7xl items-center justify-center gap-10 ">
         {/* Header */}
         <div className="mb-12 text-center">
           <p className="mb-2 text-xs font-semibold tracking-widest text-muted-foreground">
