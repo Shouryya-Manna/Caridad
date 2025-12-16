@@ -4,13 +4,13 @@ import { MapPin } from "lucide-react";
 
 export default function Events() {
   return (
-    <section className="bg-primary py-20">
+    <section className="bg-primary py-5">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto flex max-w-9xl items-center flex-col justify-center relative my-10">
-          <p className="text-sm font-semibold tracking-widest my-10">
+          <p className="text-sm font-semibold tracking-widest my-5">
             EVENTS
           </p>
-          <h2 className="text-4xl font-extrabold text-gray-900">
+          <h2 className="text-4xl font-extrabold text-gray-900 mb-5">
             Upcoming events
           </h2>
         </div>
@@ -34,7 +34,7 @@ export default function Events() {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-lg font-semibold text-gray-900 hover:text-yellow-400 cursor-pointer">
+                <h3 className="text-lg font-bold text-gray-900 hover:text-yellow-400 cursor-pointer">
                   {event.title}
                 </h3>
               </div>
