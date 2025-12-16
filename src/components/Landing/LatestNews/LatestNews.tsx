@@ -8,7 +8,7 @@ export default function LatestNews() {
           Latest News
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-          <div>
+          <div className="bg-gray-50">
             {/* Image */}
             <div className="relative aspect-square overflow-hidden">
               <Image
@@ -64,7 +64,7 @@ export default function LatestNews() {
             </div>
           </div>
 
-          <div>
+          <div className="bg-gray-50">
             {/* Image */}
             <div className="relative  aspect-square overflow-hidden">
               <Image
