@@ -6,7 +6,7 @@ export default function Mission() {
       <div className="mx-auto flex max-w-7xl items-center justify-center gap-10 ">
         <div className="max-w-2xl">
           {/* "Floating" looking text */}
-          <p className="mb-4 text-sm font-semibold tracking-widest">
+          <p className="mb-4 text-lg font-black tracking-widest">
             OUR MISSION IS SIMPLE
           </p>
 
