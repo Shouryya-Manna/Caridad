@@ -3,21 +3,25 @@ import Image from "next/image";
 
 export default function Cause() {
   return (
-    <section className="bg-primary py-20">
-      <div className="mx-auto flex max-w-9xl items-center flex-col justify-center gap-10 relative">
-        <p className="mb-4 text-sm font-semibold tracking-widest">
+    <section className="bg-primary pt-90">
+      <div className="mx-auto flex max-w-7xl flex-col justify-center gap-10 relative">
+        <p className="mx-auto mb-10 text-xl font-semibold tracking-widest">
           CAUSE
         </p>
 
-        {/* HEADING ON IMAGE */}
-        <h2 className="absolute top-10 z-20 text-[44px] font-extrabold leading-[1.05] text-black">
-          Support groundbreaking <br />
-          research to help save <br />
-          lives
-        </h2>
-
         <div className="flex items-center gap-20">
-          <div className="relative h-[460px] w-[680px]">
+          {/* HEADING ON IMAGE */}
+          <h2 className="absolute top-10 z-20 text-[44px] font-extrabold leading-[1.05] text-black">
+            <span className="block">
+              Support groundbreaking
+            </span>
+            <span className="block">
+              research to help save
+            </span>
+            <span className="block">lives</span>
+          </h2>
+
+          <div className="relative h-[500px] w-[700px]">
             <Image
               src="/Woman2.png"
               alt=""
