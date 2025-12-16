@@ -1,11 +1,51 @@
+"use client";
 import { Button } from "@/components/ui/button";
 import { HeaderData } from "@/data/Header.data";
 import { Bars2Icon } from "@heroicons/react/16/solid";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export default function Header() {
+  const [hidden, setHidden] = useState(false);
+  const [lastScroll, setLastScroll] = useState(0);
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentPosition = window.scrollY;
+
+      if (currentPosition < lastScroll) {
+        setHidden(false);
+      } else if (currentPosition > 150) {
+        setHidden(true);
+      }
+
+      setLastScroll(currentPosition);
+    };
+
+    window.addEventListener(
+      "scroll",
+      handleScroll
+    );
+    return () =>
+      window.removeEventListener(
+        "scroll",
+        handleScroll
+      );
+  }, [lastScroll]);
+
   return (
-    <header className="relative z-50 flex justify-center gap-30 py-5 items-center">
+    <section
+      className={`
+    sticky top-0 z-50
+    transition-transform duration-300 ease-in-out
+    ${
+      hidden
+        ? "-translate-y-full"
+        : "translate-y-0"
+    }
+    bg-primary
+    flex justify-center items-center py-5 gap-60
+  `}
+    >
       {/* Logo */}
       <div className="relative h-[50px] w-[200px] shrink-0">
         <Image
@@ -58,6 +98,6 @@ export default function Header() {
           Donate
         </Button>
       </div>
-    </header>
+    </section>
   );
 }
