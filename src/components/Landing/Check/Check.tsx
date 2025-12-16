@@ -9,22 +9,27 @@ export default function Check() {
 
   return (
     <section className="mx-20 my-20">
-      <div className="mx-auto flex max-w-9xl items-center justify-center relative">
-        <div>
-          <h2 className="absolute top-10 left-100 z-20 text-[44px] font-extrabold leading-[1.05] text-black">
-            Checked your <br />
-            breasts lately?
+      <div className="mx-auto flex lg:max-w-[1230px] items-center justify-center gap-12 relative">
+        <div className="flex-1">
+          <h2 className="absolute top-10 z-20 text-7xl font-extrabold leading-[1.05] text-black">
+            <span className="block">
+              Checked your
+            </span>
+            <span className="block">
+              breasts lately?
+            </span>
           </h2>
-
-          <p className="max-w-xs text-xl leading-relaxed text-muted-foreground">
-            We'll show you how. Checking your
-            breasts is easy as TLC. Know your
-            normal', so you can find any changes
-            in your breasts as soon as they
-            appear.
-          </p>
-          <Separator className="" />
-          <div className="flex items-center gap-10 pt-6">
+          <div>
+            <p className="max-w-l text-base leading-relaxed text-gray-600 mt-40">
+              We'll show you how. Checking your
+              breasts is easy as TLC. 'Know your
+              normal', so you can find any changes
+              in your breasts as soon as they
+              adivpear.
+            </p>
+          </div>
+          <Separator className="my-10 bg-gray-500" />
+          <div className="flex items-center gap-10">
             <div>
               <p className="text-sm font-bold">
                 01.
@@ -60,7 +65,7 @@ export default function Check() {
 
           <Image
             src="/Woman4.jpeg"
-            alt="Breast check awareness video"
+            alt=""
             fill
             className="object-cover"
           />
@@ -70,7 +75,7 @@ export default function Check() {
       {/* VIDEO */}
       {open && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80">
-          <div className="relative w-full max-w-4xl aspect-video">
+          <div className="relative w-full max-w-6xl aspect-video">
             <button
               onClick={() => setOpen(false)}
               className="absolute -top-10 right-0 text-white text-xl"
