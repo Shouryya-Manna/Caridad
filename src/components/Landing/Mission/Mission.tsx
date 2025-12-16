@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Mission() {
   return (
-    <section className="bg-primary mx-20 my-20">
+    <section className="bg-primary py-20">
       <div className="mx-auto flex max-w-9xl items-center justify-center gap-10 ">
         <div className="max-w-2xl">
           {/* "Floating" looking text */}

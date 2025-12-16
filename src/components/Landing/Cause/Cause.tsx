@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Cause() {
   return (
-    <section className="bg-primary mx-20 my-20">
+    <section className="bg-primary py-20">
       <div className="mx-auto flex max-w-9xl items-center flex-col justify-center gap-10 relative">
         <p className="mb-4 text-sm font-semibold tracking-widest">
           CAUSE

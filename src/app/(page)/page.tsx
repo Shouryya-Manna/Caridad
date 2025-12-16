@@ -14,27 +14,18 @@ import Stories from "@/components/Landing/Stories/Stories";
 export default function LandingPage() {
   return (
     <div>
-      <div className="bg-primary">
-        <Header />
-        <Mission />
-        <Cause />
-      </div>
-
+      <Header />
+      <Mission />
+      <Cause />
       <Help />
-      <div className="bg-primary">
-        <Impact />
-      </div>
+      <Impact />
       <Donation />
       <Check />
-      <div className="bg-primary">
-        <Events />
-      </div>
+      <Events />
       <Stories />
       <LatestNews />
       <Percentage />
-      <div className="bg-primary">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 }

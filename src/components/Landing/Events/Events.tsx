@@ -4,7 +4,7 @@ import { MapPin } from "lucide-react";
 
 export default function Events() {
   return (
-    <section className="bg-primary mx-20 my-20">
+    <section className="bg-primary py-20">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto flex max-w-9xl items-center flex-col justify-center relative my-10">
           <p className="text-sm font-semibold tracking-widest my-10">
