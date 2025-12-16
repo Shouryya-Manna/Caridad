@@ -7,10 +7,10 @@ export default function Events() {
     <section className="bg-primary py-5">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto flex max-w-9xl items-center flex-col justify-center relative my-10">
-          <p className="text-sm font-semibold tracking-widest my-5">
+          <p className="mb-4 text-lg font-semibold tracking-widest">
             EVENTS
           </p>
-          <h2 className="text-4xl font-extrabold text-gray-900 mb-5">
+          <h2 className="text-4xl md:text-5xl font-bold mb-16 mx-auto">
             Upcoming events
           </h2>
         </div>

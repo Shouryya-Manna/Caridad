@@ -9,7 +9,7 @@ export default function Donation() {
         <p className="mb-4 text-lg font-semibold tracking-widest">
           GET INVOLVED
         </p>
-        <h2 className="text-3xl font-bold md:text-4xl">
+        <h2 className="text-4xl md:text-5xl font-bold mb-16 mx-auto">
           Want to Help
         </h2>
       </div>

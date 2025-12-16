@@ -4,10 +4,10 @@ export default function Stories() {
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-14">
-          <p className="mb-2 text-xs font-semibold tracking-widest text-muted-foreground">
+          <p className="mb-4 text-lg font-semibold tracking-widest">
             Stories
           </p>
-          <h2 className="text-3xl font-bold md:text-4xl">
+          <h2 className="text-4xl md:text-5xl font-bold mb-16 mx-auto">
             Stories of Hope
           </h2>
         </div>
@@ -44,7 +44,7 @@ export default function Stories() {
               </p>
             </div>
 
-            <button className="mt-8 w-fit text-sm font-semibold text-black border-b-2 border-black hover:opacity-70 transition">
+            <button className="mt-8 w-fit text-sm font-semibold text-black border-b-2 border-black cursor-pointer">
               Read more
             </button>
           </div>

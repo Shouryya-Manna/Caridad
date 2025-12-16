@@ -4,7 +4,7 @@ export default function WhereMoneyGoes() {
   return (
     <section className="mx-20 my-20">
       <div className="max-w-5xl mx-auto text-center">
-        <p className="mb-4 text- font-bold uppercase">
+        <p className="mb-4 text-lg font-semibold tracking-widest uppercase">
           Have you made a donation or fundraised
           for us?
         </p>

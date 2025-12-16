@@ -13,13 +13,13 @@ export default function Help() {
     <section className="mx-20 py-20 my-20">
       <div className="mx-auto flex flex-col max-w-7xl items-center justify-center gap-10 ">
         {/* Header */}
-        <div className="mb-12 text-center">
+        <div className="text-center">
           <p className="mb-2 text-lg font-semibold tracking-widest">
             WHAT WE DO
           </p>
-          <p className="text-5xl font-bold md:text-4xl">
+          <h2 className="text-4xl md:text-5xl font-bold mb-16 mx-auto">
             How we help
-          </p>
+          </h2>
         </div>
 
         {/* Accordion */}

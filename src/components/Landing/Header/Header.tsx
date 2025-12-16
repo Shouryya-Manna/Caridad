@@ -92,7 +92,7 @@ export default function Header() {
       <div className="flex gap-10">
         <Bars2Icon className="h-8 w-8 cursor-pointer my-3" />
         <Button
-          className="cursor-pointer hover:bg-black hover:text-white rounded-4xl h-14 w-32"
+          className="bg-transparent cursor-pointer font-bold hover:bg-black hover:text-white rounded-4xl h-14 w-32 border-black"
           variant="outline"
         >
           Donate
