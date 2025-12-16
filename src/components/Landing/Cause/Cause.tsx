@@ -10,29 +10,38 @@ export default function Cause() {
         </p>
 
         <div className="flex items-center gap-20">
-          {/* HEADING ON IMAGE */}
-          <h2 className="absolute top-10 z-20 text-[44px] font-extrabold leading-[1.05] text-black">
-            <span className="block">
-              Support groundbreaking
-            </span>
-            <span className="block">
-              research to help save
-            </span>
-            <span className="block">lives</span>
-          </h2>
-
-          <div className="relative h-[500px] w-[700px]">
+          <div className="relative h-[500px] w-[700px] shrink-0">
             <Image
               src="/Woman2.png"
               alt=""
               fill
               className="object-cover"
             />
+
+            {/* heading */}
+            <h2 className="absolute right-[-350px] top-10 z-20 -translate-y-1/2 text-[50px] font-extrabold leading-[1.05] text-black">
+              <span className="block">
+                Support groundbreaking
+              </span>
+              <span className="block">
+                research to help save
+              </span>
+              <span className="block">lives</span>
+            </h2>
+
+            {/* Circle */}
+            <div className="absolute bottom-[-60px] right-20 z-30 h-50 w-50 rounded-full bg-black text-gray-300 flex items-center justify-center p-4">
+              <p className="text-center text-sm font-semibold  wrap-break-word">
+                Caridad had provided over 2
+                million breast health resources to
+                women in need
+              </p>
+            </div>
           </div>
 
           {/* Paragraph div */}
           <div className="max-w-md space-y-8">
-            <p className="text-l leading-relaxed">
+            <p className="text-lg leading-relaxed">
               So many younger women are being
               diagnosed with breast cancer and are
               dying needlessly. It's critical that

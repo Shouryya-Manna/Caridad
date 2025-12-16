@@ -18,7 +18,7 @@ export default function Mission() {
             <span className="block">cancer</span>
           </div>
 
-          <button className="my-4 text-l font-bold text-black cursor-pointer">
+          <button className="my-4 text-lg font-bold text-black cursor-pointer">
             Learn more
           </button>
         </div>
