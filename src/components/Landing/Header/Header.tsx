@@ -42,61 +42,65 @@ export default function Header() {
         ? "-translate-y-full"
         : "translate-y-0"
     }
-    bg-primary
-    flex justify-center items-center py-5 gap-60
+    bg-primary py-1
   `}
     >
-      {/* Logo */}
-      <div className="relative h-[50px] w-[200px] shrink-0">
-        <Image
-          src="/logo.png"
-          alt=""
-          fill
-          className="object-cover"
-        />
-      </div>
+      <div className="max-w-7xl mx-auto grid grid-cols-[1fr_2fr_1fr] h-20 py-1">
+        {/* Logo */}
+        <div className="relative flex w-85 h-full justify-start items-center cursor-pointer">
+          <Image
+            src="/logo.svg"
+            alt=""
+            width={180}
+            height={60}
+            className="object-contain object-left"
+          />
+        </div>
 
-      {/* Navigation */}
-      <nav className="flex gap-5">
-        {HeaderData.map((item, index) => (
-          <div
-            key={index}
-            className="relative group"
-          >
-            <div className="cursor-pointer px-2 py-1 group-hover:underline underline-offset-4 text-xl">
-              {item.menu}
-            </div>
-
-            {/* Dropdown */}
+        {/* Navigation */}
+        <div className="w-full mx-auto flex justify-between items-center px-10">
+          {HeaderData.map((item, index) => (
             <div
-              className="
+              key={index}
+              className="relative group"
+            >
+              <div className="cursor-pointer font-medium mx-auto text-nowrap group-hover:underline underline-offset-4 text-[16px]">
+                {item.menu}
+              </div>
+
+              {/* Dropdown */}
+              <div
+                className="
                 absolute left-0 mt-2 z-50
                 bg-black w-fit text-white px-6 py-4
                 opacity-0 invisible group-hover:opacity-100 group-hover:visible
                 transition-all duration-200 whitespace-nowrap"
-            >
-              {item.submenu.map((sub, index) => (
-                <div
-                  key={index}
-                  className="py-2 hover:text-yellow-300 cursor-pointer"
-                >
-                  {sub}
-                </div>
-              ))}
+              >
+                {item.submenu.map(
+                  (sub, index) => (
+                    <div
+                      key={index}
+                      className="py-2 hover:text-yellow-300 cursor-pointer"
+                    >
+                      {sub}
+                    </div>
+                  )
+                )}
+              </div>
             </div>
-          </div>
-        ))}
-      </nav>
+          ))}
+        </div>
 
-      {/* Buttons */}
-      <div className="flex gap-10">
-        <Bars2Icon className="h-8 w-8 cursor-pointer my-3" />
-        <Button
-          className="bg-transparent cursor-pointer font-bold hover:bg-black hover:text-white rounded-4xl h-14 w-32 border-black"
-          variant="outline"
-        >
-          Donate
-        </Button>
+        {/* Buttons */}
+        <div className="ml-auto flex gap-8 w-85 justify-end items-center">
+          <Bars2Icon className="h-8 w-8 cursor-pointer my-3" />
+          <Button
+            className="bg-transparent cursor-pointer text-[16px] font-bold hover:bg-black hover:text-white rounded-4xl h-12 w-34 border-2 border-black focus-visible:ring-0 focus-visible:ring-offset-0"
+            variant="outline"
+          >
+            Donate
+          </Button>
+        </div>
       </div>
     </section>
   );
