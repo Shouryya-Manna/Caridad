@@ -2,23 +2,25 @@ import Image from "next/image";
 
 export default function Mission() {
   return (
-    <section className="bg-primary">
-      <div className="mx-auto flex max-w-7xl items-center justify-center gap-10 ">
-        <div className="max-w-2xl">
+    <section className="bg-primary px-7">
+      <div className="mx-auto flex max-w-7xl items-center justify-center gap-8">
+        <div className="max-w-xl">
           {/* "Floating" looking text */}
-          <p className="mb-4 text-lg font-black tracking-widest">
-            OUR MISSION IS SIMPLE
+          <p className="text-xl font-medium uppercase">
+            Our Mission Is Simple
           </p>
 
-          <div className="text-9xl font-extrabold text-black leading-[0.8]">
-            <span className="block">Stop</span>
+          <div className="text-[120px] font-extrabold leading-[0.9] text-[#1D1C1C] mt-8">
+            <span className="block tracking-normal">
+              Stop
+            </span>
             <span className="block">deaths</span>
             <span className="block">from</span>
             <span className="block">breast</span>
             <span className="block">cancer</span>
           </div>
 
-          <button className="my-8 text-lg font-bold text-black cursor-pointer">
+          <button className="my-8 font-bold text-[#1D1C1C] text-[16px] cursor-pointer underline underline-offset-9 decoration-yellow-200">
             Learn more
           </button>
         </div>
@@ -29,7 +31,7 @@ export default function Mission() {
             src="/Woman1.png"
             alt=""
             fill
-            className="object-cover mt-60"
+            className="object-cover object-bottom mt-50"
           />
         </div>
       </div>

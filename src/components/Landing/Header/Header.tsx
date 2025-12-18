@@ -42,17 +42,16 @@ export default function Header() {
         ? "-translate-y-full"
         : "translate-y-0"
     }
-    bg-primary py-1
+    bg-primary py-1 px-7
   `}
     >
       <div className="max-w-7xl mx-auto grid grid-cols-[1fr_2fr_1fr] h-20 py-1">
         {/* Logo */}
-        <div className="relative flex w-85 h-full justify-start items-center cursor-pointer">
+        <div className="relative flex max-w-85 w-40 h-full justify-start items-center cursor-pointer">
           <Image
             src="/logo.svg"
             alt=""
-            width={180}
-            height={60}
+            fill
             className="object-contain object-left"
           />
         </div>
@@ -64,7 +63,13 @@ export default function Header() {
               key={index}
               className="relative group"
             >
-              <div className="cursor-pointer font-medium mx-auto text-nowrap group-hover:underline underline-offset-4 text-[16px]">
+              <div
+                className={`cursor-pointer px-4 font-medium mx-auto text-nowrap text-[16px] ${
+                  index === 0
+                    ? "underline underline-offset-4"
+                    : "group-hover:underline underline-offset-4"
+                }`}
+              >
                 {item.menu}
               </div>
 
@@ -95,7 +100,7 @@ export default function Header() {
         <div className="ml-auto flex gap-8 w-85 justify-end items-center">
           <Bars2Icon className="h-8 w-8 cursor-pointer my-3" />
           <Button
-            className="bg-transparent cursor-pointer text-[16px] font-bold hover:bg-black hover:text-white rounded-4xl h-12 w-34 border-2 border-black focus-visible:ring-0 focus-visible:ring-offset-0"
+            className="bg-transparent cursor-pointer text-[16px] font-bold hover:bg-black hover:text-white rounded-4xl h-13 w-33 border border-black focus-visible:ring-0 focus-visible:ring-offset-0"
             variant="outline"
           >
             Donate
