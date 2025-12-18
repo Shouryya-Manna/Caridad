@@ -3,30 +3,34 @@ import Image from "next/image";
 
 export default function Cause() {
   return (
-    <section className="bg-primary pt-90">
+    <section className="bg-primary px-7 py-120">
       <div className="mx-auto flex max-w-7xl flex-col justify-center gap-10 relative">
-        <p className="mx-auto mb-10 text-xl font-semibold tracking-widest">
-          CAUSE
-        </p>
-
-        <div className="flex items-center gap-20">
-          <div className="relative h-[500px] w-[700px] shrink-0">
+        <div className="flex items-center gap-15">
+          <div className="relative h-[600px] w-[800px] shrink-0">
             <Image
-              src="/Woman2.png"
+              src="/IMG2.png"
               alt=""
               fill
               className="object-cover"
             />
 
             {/* heading */}
-            <h2 className="absolute right-[-350px] top-10 z-20 -translate-y-1/2 text-[50px] font-extrabold leading-[1.05] text-black">
-              <span className="block">
-                Support groundbreaking
+            <h2 className="absolute right-[-250px] top-20 z-20 -translate-y-1/2 text-[50px]">
+              <p className="mx-auto mb-6 text-[20px] tracking-wide">
+                CAUSE
+              </p>
+              <span className="block font-extrabold leading-[1.2] text-[#1D1C1C]">
+                Support
               </span>
-              <span className="block">
+              <span className="block font-extrabold leading-[1.2] text-[#1D1C1C]">
+                groundbreaking
+              </span>
+              <span className="block font-extrabold leading-[1.2] text-[#1D1C1C]">
                 research to help save
               </span>
-              <span className="block">lives</span>
+              <span className="block font-extrabold leading-[1.2] text-[#1D1C1C]">
+                lives
+              </span>
             </h2>
 
             {/* Circle */}
@@ -40,15 +44,15 @@ export default function Cause() {
           </div>
 
           {/* Paragraph div */}
-          <div className="max-w-md space-y-8">
-            <p className="text-lg leading-relaxed">
+          <div className="max-w-md mt-30">
+            <p className="text-md leading-normal">
               So many younger women are being
               diagnosed with breast cancer and are
               dying needlessly. It's critical that
               research is undertaken in this area
               now to help save their lives.
             </p>
-            <Button className="cursor-pointer text-black font-bold hover:bg-black hover:text-white rounded-4xl h-14 w-36 bg-yellow-500">
+            <Button className="my-5 cursor-pointer text-black font-bold hover:bg-black hover:text-white rounded-4xl h-14 w-36 bg-[#FEC415]">
               Donate
             </Button>
           </div>
