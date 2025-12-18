@@ -57,18 +57,19 @@ export default function Header() {
         </div>
 
         {/* Navigation */}
-        <div className="w-full mx-auto flex justify-between items-center px-14">
+        <div className="w-full flex justify-between items-center px-10 gap-15">
           {HeaderData.map((item, index) => (
             <div
               key={index}
               className="relative group"
             >
               <div
-                className={`cursor-pointer mx-auto font-[510] text-nowrap text-[16px] ${
-                  index === 0
-                    ? "underline underline-offset-4"
-                    : "group-hover:underline underline-offset-4 ml-0"
-                }`}
+                className={`cursor-pointer font-[510] text-nowrap text-[16px]
+                   ${
+                     index === 0
+                       ? "underline underline-offset-4"
+                       : "group-hover:underline underline-offset-4 ml-0"
+                   }`}
               >
                 {item.menu}
               </div>
@@ -76,7 +77,7 @@ export default function Header() {
               {/* Dropdown */}
               <div
                 className="
-                absolute left-4 mt-2 z-50
+                absolute left-0 mt-2 z-50
                 bg-black w-fit text-white px-6 py-4
                 opacity-0 invisible group-hover:opacity-100 group-hover:visible
                 transition-all duration-200 whitespace-nowrap"
