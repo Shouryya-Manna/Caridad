@@ -57,19 +57,21 @@ export default function Header() {
         </div>
 
         {/* Navigation */}
-        <div className="w-full flex justify-between items-center px-10 gap-15">
+        <div className="w-full flex justify-between items-center px-10 gap-14.5">
           {HeaderData.map((item, index) => (
             <div
               key={index}
               className="relative group"
             >
               <div
-                className={`cursor-pointer font-[510] text-nowrap text-[16px]
+                className={`cursor-pointer font-[501] text-nowrap text-[16px] tracking-[0.1]
                    ${
                      index === 0
                        ? "underline underline-offset-4"
                        : "group-hover:underline underline-offset-4 ml-0"
-                   }`}
+                   }
+                  
+                    ${index < 1 ? "pl-6.5" : ""}`}
               >
                 {item.menu}
               </div>
