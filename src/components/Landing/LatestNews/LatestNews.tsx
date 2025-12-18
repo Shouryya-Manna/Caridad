@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function LatestNews() {
   return (
     <section className="w-full flex justify-center py-16">
-      <div className="max-w-7xl w-full px-6">
+      <div className="max-w-[1239px] px-6 w-full">
         <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">
           Latest News
         </h2>

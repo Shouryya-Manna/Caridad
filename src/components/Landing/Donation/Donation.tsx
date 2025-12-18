@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Donation() {
   return (
-    <section className="mx-auto max-w-7xl px-6 py-24">
+    <section className="mx-auto max-w-[1239px] px-6 py-24">
       <div className="mb-16 text-center">
         <p className="mb-4 text-lg font-semibold tracking-widest">
           GET INVOLVED

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Mission() {
   return (
     <section className="bg-primary px-7">
-      <div className="mx-auto flex max-w-7xl items-center justify-center gap-8">
+      <div className="mx-auto flex max-w-[1239px] px-1 items-center justify-center gap-8">
         <div className="max-w-xl">
           {/* "Floating" looking text */}
           <p className="text-xl font-medium uppercase">
@@ -28,7 +28,7 @@ export default function Mission() {
         {/* Image div */}
         <div className="relative h-[900px] w-[900px]">
           <Image
-            src="/Woman1.png"
+            src="/IMG1.webp"
             alt=""
             fill
             className="object-cover object-bottom mt-50"

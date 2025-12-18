@@ -1,7 +1,7 @@
 export default function Stories() {
   return (
     <section className="mx-20 my-20">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-[1239px] mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-14">
           <p className="mb-4 text-lg font-semibold tracking-widest">

@@ -9,7 +9,7 @@ export default function Check() {
 
   return (
     <section className="mx-20 my-20">
-      <div className="mx-auto flex lg:max-w-[1230px] items-center justify-center gap-12 relative">
+      <div className="mx-auto flex lg:max-w-[1239px] px-1 items-center justify-center gap-12 relative">
         <div className="flex-1">
           <h2 className="absolute top-10 z-20 text-7xl font-extrabold leading-[1.05] text-black">
             <span className="block">

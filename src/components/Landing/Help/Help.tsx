@@ -11,7 +11,7 @@ import { Plus, X } from "lucide-react";
 export default function Help() {
   return (
     <section className="mx-20 py-20 my-20">
-      <div className="mx-auto flex flex-col max-w-7xl items-center justify-center gap-10 ">
+      <div className="mx-auto flex flex-col max-w-[1239px] px-1 items-center justify-center gap-10 ">
         {/* Header */}
         <div className="text-center">
           <p className="mb-2 text-lg font-semibold tracking-widest">

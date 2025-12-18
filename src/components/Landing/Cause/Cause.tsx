@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Cause() {
   return (
-    <section className="bg-primary px-7 py-120">
-      <div className="mx-auto flex max-w-7xl flex-col justify-center gap-10 relative">
+    <section className="bg-primary px-7 pt-120">
+      <div className="mx-auto flex max-w-[1239px] px-1 flex-col justify-center gap-10 relative">
         <div className="flex items-center gap-15">
           <div className="relative h-[600px] w-[800px] shrink-0">
             <Image
