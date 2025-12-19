@@ -20,7 +20,7 @@ export default function Footer() {
               women in need
             </span>
           </h2>
-          <button className="text-[16px] text-[#1D1C1C] font-bold cursor-pointer hover:bg-black hover:text-white rounded-4xl h-17 w-45 bg-[#FEC415]">
+          <button className="text-[16px] text-[#1D1C1C] font-bold cursor-pointer hover:bg-black hover:text-white rounded-4xl h-16.5 w-45 bg-[#FEC415]">
             Donate
           </button>
         </div>
@@ -86,20 +86,20 @@ export default function Footer() {
           <div className="flex flex-wrap justify-center md:justify-start gap-4">
             <a
               href="#"
-              className="hover:text-[#FEC415] transition-colors duration-300 font-normal"
+              className="hover:text-[#FEC415] transition-colors duration-300 font-[420]"
             >
               Terms of use
             </a>
 
             <a
               href="#"
-              className="hover:text-[#FEC415] transition-colors duration-300"
+              className="hover:text-[#FEC415] transition-colors duration-300 font-[420]"
             >
               Media Kit
             </a>
             <a
               href="#"
-              className="hover:text-[#FEC415] transition-colors duration-300"
+              className="hover:text-[#FEC415] transition-colors duration-300 font-[420]"
             >
               Contacts
             </a>
