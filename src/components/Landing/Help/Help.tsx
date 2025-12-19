@@ -39,14 +39,33 @@ export default function Help() {
                   {item.title}
                 </span>
                 <span className="ml-4 flex h-15 w-10 items-center justify-center">
-                  <Plus
-                    strokeWidth={0.5}
-                    className="h-20 w-20 transition-all group-data-[state=open]:hidden text-[#52525b]"
-                  />
-                  <X
-                    strokeWidth={0.5}
-                    className="hidden h-20 w-20 transition-all group-data-[state=open]:block text-[#1D1C1C]"
-                  />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="23.4"
+                    height="25"
+                    viewBox="0 0 38 38"
+                    className="transition-all group-data-[state=open]:hidden"
+                  >
+                    <path
+                      d="M20,0 L20,18 L38,18 L38,19 L20,19 L20,38 L19,38 L19,19 L0,19 L0,18 L19,18 L19,0 L20,0 Z"
+                      fill="#000000"
+                      fillRule="evenodd"
+                      strokeWidth={0.5}
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="23.4"
+                    height="25"
+                    className="hidden transition-all group-data-[state=open]:block"
+                  >
+                    <path
+                      d="M28.142 2.272L15.414 15l12.728 12.728-.707.707-12.728-12.728L1.272 29.142l-.707-.707L14 15 .565 1.565l.707-.707 13.435 13.435L27.435 1.565l.707.707z"
+                      fill="#000"
+                      fillRule="evenodd"
+                      strokeWidth={0.5}
+                    />
+                  </svg>
                 </span>
               </AccordionTrigger>
 

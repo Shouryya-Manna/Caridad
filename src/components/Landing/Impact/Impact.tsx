@@ -7,10 +7,20 @@ import {
 import Image from "next/image";
 
 export default function Impact() {
+  const rotations = [
+    "rotate-[-9deg]",
+    "rotate-[-7deg]",
+    "rotate-[8deg]",
+  ];
+  const maxWidths = [
+    "max-w-35",
+    "max-w-50",
+    "max-w-52",
+  ];
   return (
-    <section className="bg-primary pt-32 pb-15">
+    <section className="bg-primary pt-32 pb-15 overflow-hidden">
       {/* Heading */}
-      <div className="mx-auto max-w-full text-center mb-16">
+      <div className="mx-auto  text-center mb-16">
         <p className="mb-5 text-[20px] font-[401] tracking-normal uppercase">
           IMPACT
         </p>
@@ -20,38 +30,54 @@ export default function Impact() {
         </h2>
       </div>
 
-      <div className="w-full mx-auto relative px-16">
+      <div className="w-full">
         <Carousel
-          opts={{
-            loop: true,
-            slidesToScroll: 1,
-          }}
+          opts={{ align: "start", loop: true }}
           className="w-full"
         >
           <CarouselContent className="flex items-center">
-            {ImpactData.map((item, index) => (
-              <CarouselItem
-                key={index}
-                className="basis-[50%]"
-              >
-                <div className="flex items-center justify-center text-center p-4 h-full">
-                  {/* Image */}
-                  <div className="relative w-50 h-80 mb-8 rotate-[-8deg]">
-                    <Image
-                      src={item.imageUrl}
-                      alt=""
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <p className="mx-10 max-w-sm text-left text-wrap text-2xl text-gray-900 leading-snug font-extrabold">
-                    {item.data}
-                  </p>
-                </div>
-              </CarouselItem>
-            ))}
+            {[...ImpactData, ...ImpactData].map(
+              (item, index) => {
+                const rotate =
+                  rotations[
+                    index % rotations.length
+                  ];
+
+                return (
+                  <CarouselItem
+                    key={index}
+                    className="basis-full lg:basis-[43%]"
+                  >
+                    <div className="flex items-center gap-12 py-18 px-9">
+                      <div
+                        className={`relative shrink-0 w-55 h-75 ${rotate}`}
+                      >
+                        <Image
+                          src={item.imageUrl}
+                          alt=""
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+
+                      <div
+                        className={
+                          maxWidths[
+                            index %
+                              maxWidths.length
+                          ]
+                        }
+                      >
+                        <p className="text-[24px] leading-[1.3] font-bold text-tertiary">
+                          {item.data}
+                        </p>
+                      </div>
+                    </div>
+                  </CarouselItem>
+                );
+              }
+            )}
           </CarouselContent>
-          
         </Carousel>
       </div>
     </section>

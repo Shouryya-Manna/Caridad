@@ -1,7 +1,7 @@
 export const ImpactData = [
   {
     imageUrl: "/Woman1.jpg",
-    data: "There are more than 3.8 million breast cancer survivors in the United States",
+    data: "There are over 3.5 million breast cancer survivors in the United States",
   },
   {
     imageUrl: "/Woman2.jpg",
