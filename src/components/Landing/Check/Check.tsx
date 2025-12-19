@@ -8,45 +8,47 @@ export default function Check() {
   const [open, setOpen] = useState(false);
 
   return (
-    <section className="mx-20 my-20">
-      <div className="mx-auto flex lg:max-w-[1239px] px-1 items-center justify-center gap-12 relative">
-        <div className="flex-1">
-          <h2 className="absolute top-10 z-20 text-7xl font-extrabold leading-[1.05] text-black">
+    <section className="my-20 mx-7">
+      <div className="mx-auto flex max-w-[1239px] items-center justify-center gap-12 relative">
+        <div className="flex-1 gap-14">
+          <h2 className="absolute top-20 mx-0.5 z-20 text-[70px] font-extrabold leading-none text-black">
             <span className="block">
               Checked your
             </span>
-            <span className="block">
-              breasts lately?
-            </span>
+            <span className="block">breasts</span>
+            <span className="block">lately?</span>
           </h2>
-          <div>
-            <p className="max-w-l text-base leading-relaxed text-gray-600 mt-40">
-              We'll show you how. Checking your
-              breasts is easy as TLC. 'Know your
-              normal', so you can find any changes
-              in your breasts as soon as they
-              adivpear.
-            </p>
-          </div>
-          <Separator className="my-10 bg-gray-500" />
-          <div className="flex items-center gap-10">
+          <p className="text-[16px] leading-[1.4] text-[#1D1C1C] mt-60 mx-0.5 border-b border-b-gray-600 py-9">
+            We'll show you how. Checking your
+            breasts is easy as TLC. 'Know your
+            normal', so you can find any <br />
+            changes in your breasts as soon as
+            they appear.
+          </p>
+          <div className="flex gap-15 pt-11 max-w-xl px-1 justify-start items-center">
             <div>
-              <p className="text-sm font-bold">
+              <p className="text-[16px] font-bold">
                 01.
               </p>
-              <p className="text-sm">Touch</p>
+              <p className="text-[16px] font-bold">
+                Touch
+              </p>
             </div>
             <div>
-              <p className="text-sm font-bold">
+              <p className="text-[16px] font-bold">
                 02.
               </p>
-              <p className="text-sm">Look</p>
+              <p className="text-[16px] font-bold">
+                Look
+              </p>
             </div>
             <div>
-              <p className="text-sm font-bold">
+              <p className="text-[16px] font-bold">
                 03.
               </p>
-              <p className="text-sm">Check</p>
+              <p className="text-[16px] font-bold">
+                Check
+              </p>
             </div>
           </div>
         </div>
@@ -54,17 +56,17 @@ export default function Check() {
         {/* RIGHT VIDEO THUMB */}
         <div
           onClick={() => setOpen(true)}
-          className="relative h-[540px] w-[900px] cursor-pointer overflow-hidden"
+          className="relative h-[592px] w-[865px] cursor-pointer overflow-hidden"
         >
           {/* play button */}
           <div className="absolute inset-0 z-10 flex items-center justify-center">
-            <div className="w-30 h-30 rounded-full bg-black/80 group-hover:bg-black transition-colors flex items-center justify-center">
-              <div className="w-0 h-0 border-l-20 border-l-white border-y-12 border-y-transparent ml-1" />
+            <div className="group w-30 h-30 rounded-full bg-[#1D1C1C] hover:bg-[#ffff] transition-colors flex items-center justify-center">
+              <div className="w-6 h-6 border-l-20 border-l-white border-y-12 border-y-transparent group-hover:border-l-[#1D1C1C] transition-colors" />
             </div>
           </div>
 
           <Image
-            src="/IMG4.webp"
+            src="/IMG10.jpg"
             alt=""
             fill
             className="object-cover"
@@ -78,7 +80,7 @@ export default function Check() {
           <div className="relative w-full max-w-6xl aspect-video">
             <button
               onClick={() => setOpen(false)}
-              className="absolute -top-10 right-0 text-white text-xl"
+              className="absolute -top-10 right-0 hover:text-black text-white text-xl"
             >
               ✕
             </button>
