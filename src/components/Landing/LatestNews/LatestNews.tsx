@@ -4,24 +4,24 @@ export default function LatestNews() {
   return (
     <section className="w-full flex justify-center py-15">
       <div className="max-w-[1239px] p-1 w-full">
-        <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">
+        <h2 className="text-[50px] font-bold mb-22 text-center text-[#1D1C1C]">
           Latest News
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           <div className="bg-gray-50">
             {/* Image */}
-            <div className="relative aspect-square overflow-hidden">
+            <div className="relative aspect-square overflow-hidden group cursor-pointer">
               <Image
                 src="/Can1.jpeg"
                 alt=""
                 fill
-                className="object-cover"
+                className="object-cover transition-all duration-150 group-hover:grayscale group-hover:brightness-95"
               />
             </div>
 
             {/* Content */}
             <div className="p-5 flex flex-col min-h-[570px]">
-              <p className="text-[16px] m-4 text-neutral-500 mb-2">
+              <p className="text-[16px] mx-4 mt-1 text-[#1D1C1C] mb-2">
                 20 Jun 2020
               </p>
 
@@ -40,7 +40,7 @@ export default function LatestNews() {
           <div>
             {/* Content */}
             <div className="p-5 flex flex-col min-h-[570px]">
-              <p className="text-[16px] m-4 text-neutral-500 mb-2">
+              <p className="text-[16px] mx-4 mt-1 text-[#1D1C1C] mb-2">
                 20 Jun 2020
               </p>
 
@@ -54,30 +54,30 @@ export default function LatestNews() {
               </button>
             </div>
             {/* Image */}
-            <div className="relative  aspect-square overflow-hidden">
+            <div className="relative aspect-square overflow-hidden group cursor-pointer">
               <Image
                 src="/Can2.png"
                 alt=""
                 fill
-                className="object-cover"
+                className="object-cover transition-all duration-150 group-hover:grayscale group-hover:brightness-95"
               />
             </div>
           </div>
 
           <div className="bg-gray-50">
             {/* Image */}
-            <div className="relative  aspect-square overflow-hidden">
+            <div className="relative aspect-square overflow-hidden group cursor-pointer">
               <Image
                 src="/Can3.png"
                 alt=""
                 fill
-                className="object-cover"
+                className="object-cover transition-all duration-150 group-hover:grayscale group-hover:brightness-95"
               />
             </div>
 
             {/* Content */}
             <div className="p-5 flex flex-col min-h-[570px]">
-              <p className="text-[16px] m-4 text-neutral-500 mb-2">
+              <p className="text-[16px] mx-4 mt-1 text-[#1D1C1C] mb-2">
                 20 Jun 2020
               </p>
 
@@ -97,7 +97,7 @@ export default function LatestNews() {
           <div>
             {/* Content */}
             <div className="p-5 flex flex-col min-h-[570px]">
-              <p className="text-[16px] m-4 text-neutral-500 mb-2">
+              <p className="text-[16px] mx-4 mt-1 text-[#1D1C1C] mb-2">
                 20 Jun 2020
               </p>
 
@@ -112,12 +112,12 @@ export default function LatestNews() {
               </button>
             </div>
             {/* Image */}
-            <div className="relative  aspect-square overflow-hidden">
+            <div className="relative aspect-square overflow-hidden group cursor-pointer">
               <Image
-                src="/Can4.jpeg"
+                src="/IMG5.jpg"
                 alt=""
                 fill
-                className="object-cover"
+                className="object-cover transition-all duration-150 group-hover:grayscale group-hover:brightness-95"
               />
             </div>
           </div>
