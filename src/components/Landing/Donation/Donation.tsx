@@ -15,9 +15,9 @@ export default function Donation() {
       </div>
 
       {/* Content */}
-      <div className="grid grid-cols-1 overflow-hidden md:grid-cols-2 gap-7">
+      <div className="grid grid-cols-1 overflow-hidden md:grid-cols-2 gap-7.5">
         {/* Image */}
-        <div className="relative h-[600px] md:h-[700px]">
+        <div className="relative h-[650px]">
           <Image
             src="/IMG11.jpg"
             alt=""
@@ -26,26 +26,30 @@ export default function Donation() {
           />
         </div>
 
-        {/* Actions */}
-        <div className="flex flex-col justify-center bg-[#FEC415] px-12 py-5">
+        {/* Actions Container */}
+        <div className="flex flex-col justify-center bg-[#FEC415] px-12 py-6">
           {[
             "Donate",
             "Contribute",
             "Volunteer",
           ].map((item, index) => (
-            <div key={item} className="group">
-              <div className="flex cursor-pointer items-center justify-start gap-[45px] py-10">
-                <h3 className="flex items-center gap-6 text-[50px] font-extrabold text-tertiary relative">
+            <div
+              key={item}
+              className="group w-full pb-4"
+            >
+              <div className="flex cursor-pointer items-center justify-between py-10">
+                <h3 className="flex items-center gap-6 text-[50px] font-extrabold text-black relative">
                   {item}
                   <ArrowRight
-                    className="w-20 h-10 text-tertiary font-extralight"
-                    strokeWidth={1}
+                    className="w-16 h-8 text-black"
+                    strokeWidth={1.5}
                   />
-                  <span className="absolute bottom-0 left-0 h-[1.5px] w-0 bg-tertiary transition-all duration-500 group-hover:w-full"></span>
+                  <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-black transition-all duration-500 group-hover:w-full"></span>
                 </h3>
               </div>
+
               {index !== 2 && (
-                <Separator className="bg-tertiary" />
+                <Separator className="bg-tertiary my-2" />
               )}
             </div>
           ))}
