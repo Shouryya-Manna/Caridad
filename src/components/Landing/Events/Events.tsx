@@ -19,9 +19,9 @@ export default function Events() {
         <Separator className="bg-gray-500" />
         {/* Events List */}
         <div className="">
-          <div className="flex items-center justify-between py-8 p-10">
-            <div className="flex items-center gap-6">
-              <div className="flex h-24 w-24 flex-col items-center justify-center rounded-full bg-[#FEC415] text-[#1D1C1C]">
+          <div className="flex items-center justify-between py-8 px-8">
+            <div className="flex items-center gap-13">
+              <div className="flex h-23 w-23 flex-col items-center justify-center rounded-full bg-[#FEC415] text-[#1D1C1C]">
                 <span className="text-[24px] font-bold leading-none">
                   08
                 </span>
@@ -37,10 +37,19 @@ export default function Events() {
             </div>
 
             {/* Time & Location */}
-            <div className="flex items-center gap-10 text-sm text-gray-700">
+            <div className="flex items-center gap-[30px] text-[16px] text-gray-700">
               <span>8:00 am</span>
               <span className="flex items-center gap-2">
-                <MapPin />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="gray"
+                  stroke="none"
+                >
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
                 New York
               </span>
             </div>
@@ -48,8 +57,8 @@ export default function Events() {
           <Separator className="bg-gray-500" />
 
           <div className="flex items-center justify-between py-8 p-10">
-            <div className="flex items-center gap-6">
-              <div className="flex h-24 w-24 flex-col items-center justify-center rounded-full bg-[#FEC415] text-[#1D1C1C]">
+            <div className="flex items-center gap-13">
+              <div className="flex h-23 w-23 flex-col items-center justify-center rounded-full bg-[#FEC415] text-[#1D1C1C]">
                 <span className="text-[24px] font-bold leading-none">
                   16
                 </span>
@@ -63,10 +72,19 @@ export default function Events() {
               </h3>
             </div>
 
-            <div className="flex items-center gap-10 text-sm text-gray-700">
+            <div className="flex items-center gap-[30px] text-[16px] text-gray-700">
               <span>18:00 pm</span>
-              <span className="flex items-center gap-2">
-                <MapPin />
+              <span className="flex items-center gap-2 text-[16px]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="gray"
+                  stroke="none"
+                >
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
                 Online
               </span>
             </div>
@@ -74,8 +92,8 @@ export default function Events() {
           <Separator className="bg-gray-500" />
 
           <div className="flex items-center justify-between py-8 p-10">
-            <div className="flex items-center gap-6">
-              <div className="flex h-24 w-24 flex-col items-center justify-center rounded-full bg-[#FEC415] text-[#1D1C1C]">
+            <div className="flex items-center gap-13">
+              <div className="flex h-23 w-23 flex-col items-center justify-center rounded-full bg-[#FEC415] text-[#1D1C1C]">
                 <span className="text-[24px] font-bold leading-none">
                   21
                 </span>
@@ -89,10 +107,19 @@ export default function Events() {
               </h3>
             </div>
 
-            <div className="flex items-center gap-10 text-sm text-gray-700">
+            <div className="flex items-center gap-[30px] text-[16px] text-gray-700">
               <span>10:00 am</span>
-              <span className="flex items-center gap-2">
-                <MapPin />
+              <span className="flex items-center gap-2 text-[16px]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="gray"
+                  stroke="none"
+                >
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
                 New York
               </span>
             </div>
