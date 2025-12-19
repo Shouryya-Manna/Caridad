@@ -27,21 +27,24 @@ export default function Donation() {
         </div>
 
         {/* Actions */}
-        <div className="flex flex-col justify-center bg-[#FEC415] px-12 py-16">
+        <div className="flex flex-col justify-center bg-[#FEC415] px-12 py-5">
           {[
             "Donate",
             "Contribute",
             "Volunteer",
           ].map((item, index) => (
             <div key={item} className="group">
-              <div className="flex cursor-pointer items-center justify-start gap-6 py-10">
+              <div className="flex cursor-pointer items-center justify-start gap-[45px] py-10">
                 <h3 className="flex items-center gap-6 text-[50px] font-extrabold text-tertiary">
                   {item}
-                  <ArrowRight className="w-15 h-10 text-tertiary font-light" />
+                  <ArrowRight
+                    className="w-20 h-10 text-tertiary font-extralight"
+                    strokeWidth={1}
+                  />
                 </h3>
               </div>
               {index !== 2 && (
-                <Separator className="bg-black/30" />
+                <Separator className="bg-tertiary" />
               )}
             </div>
           ))}
