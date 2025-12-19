@@ -15,7 +15,7 @@ export default function LatestNews() {
                 src="/Can1.jpeg"
                 alt=""
                 fill
-                className="object-cover transition-all duration-150 group-hover:grayscale group-hover:brightness-95"
+                className="object-cover transition-all duration-150 group-hover:grayscale-60"
               />
             </div>
 
@@ -59,7 +59,7 @@ export default function LatestNews() {
                 src="/Can2.png"
                 alt=""
                 fill
-                className="object-cover transition-all duration-150 group-hover:grayscale group-hover:brightness-95"
+                className="object-cover transition-all duration-150 group-hover:grayscale-60"
               />
             </div>
           </div>
@@ -71,7 +71,7 @@ export default function LatestNews() {
                 src="/Can3.png"
                 alt=""
                 fill
-                className="object-cover transition-all duration-150 group-hover:grayscale group-hover:brightness-95"
+                className="object-cover transition-all duration-150 group-hover:grayscale-60"
               />
             </div>
 
@@ -117,7 +117,7 @@ export default function LatestNews() {
                 src="/IMG5.jpg"
                 alt=""
                 fill
-                className="object-cover transition-all duration-150 group-hover:grayscale group-hover:brightness-95"
+                className="object-cover transition-all duration-150 group-hover:grayscale-60"
               />
             </div>
           </div>
