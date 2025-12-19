@@ -1,14 +1,14 @@
 export const ImpactData = [
   {
-    imageUrl: "/Cancer1.jpeg",
+    imageUrl: "/Woman1.jpg",
     data: "Breast cancer death rates declined 40% from 1989 to 2016 among women",
   },
   {
-    imageUrl: "/Cancer2.jpeg",
+    imageUrl: "/Woman2.jpg",
     data: "Over the last decade Caridad has provided over 192,000 mammograms",
   },
   {
-    imageUrl: "/Cancer3.jpeg",
+    imageUrl: "/Woman3.jpg",
     data: "There are more than 3.8 million breast cancer survivors in the United States",
   },
 ];
