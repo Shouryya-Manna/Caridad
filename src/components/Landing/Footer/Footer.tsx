@@ -9,7 +9,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-primary pt-20 px-4">
+    <footer className="bg-primary pt-20 ">
       <div className="max-w-[1239px] px-1 mx-auto pb-14">
         <div className="text-center mb-9">
           <h2 className="text-[50px] md:text-5xl font-bold text-gray-900 mb-4 leading-[1.3]">

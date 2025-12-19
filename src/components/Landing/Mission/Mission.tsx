@@ -31,7 +31,7 @@ export default function Mission() {
             src="/IMG1.webp"
             alt=""
             fill
-            className="object-cover object-bottom mt-50"
+            className="object-cover object-[15%] mt-50"
           />
         </div>
       </div>
