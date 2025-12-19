@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function Impact() {
   return (
-    <section className="bg-primary py-24">
+    <section className="bg-primary pt-35 pb-20">
       {/* Heading */}
       <div className="mx-auto max-w-full text-center mb-16">
         <p className="mb-4 text-lg font-semibold tracking-widest">
