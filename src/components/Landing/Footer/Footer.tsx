@@ -9,93 +9,97 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-primary py-16 px-4">
-      <div className="max-w-[1239px] px-1 mx-auto">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Help support
-            <br />
-            women in need
+    <footer className="bg-primary pt-20 px-4">
+      <div className="max-w-[1239px] px-1 mx-auto pb-14">
+        <div className="text-center mb-9">
+          <h2 className="text-[50px] md:text-5xl font-bold text-gray-900 mb-4 leading-[1.3]">
+            <span className="block">
+              Help support
+            </span>
+            <span className="block">
+              women in need
+            </span>
           </h2>
-          <button className="bg-yellow-400 text-gray-900 font-semibold px-8 py-3 rounded-full hover:bg-black hover:text-white">
+          <button className="text-[16px] text-[#1D1C1C] font-bold cursor-pointer hover:bg-black hover:text-white rounded-4xl h-17 w-45 bg-[#FEC415]">
             Donate
           </button>
         </div>
 
-        <Separator className="border-t border-black mb-8" />
+        <Separator className="border-t border-black mb-13" />
 
         {/* Navigation Links */}
-        <nav className="flex flex-wrap justify-center gap-8 mb-8 text-sm md:text-base">
+        <nav className="flex flex-wrap justify-center gap-15 mb-8 text-sm md:text-base">
           <a
             href="#"
-            className="text-gray-900 hover:text-gray-600 font-medium transition-colors"
+            className="text-[#1D1C1C] hover:text-[#FEC415] transition-colors duration-300 font-semibold text-[18px] mb-5"
           >
             What We Do
           </a>
           <a
             href="#"
-            className="text-gray-900 hover:text-gray-600 font-medium transition-colors"
+            className="text-[#1D1C1C] hover:text-[#FEC415] duration-300 font-semibold  text-[18px] transition-colors"
           >
             About Us
           </a>
           <a
             href="#"
-            className="text-gray-900 hover:text-gray-600 font-medium transition-colors"
+            className="text-[#1D1C1C] hover:text-[#FEC415] transition-colors duration-300 font-semibold text-[18px]"
           >
             Get Involved
           </a>
           <a
             href="#"
-            className="text-gray-900 hover:text-gray-600 font-medium transition-colors"
+            className="text-[#1D1C1C] hover:text-[#FEC415] duration-300 font-semibold text-[18px] transition-colors"
           >
             Membership & Giving
           </a>
         </nav>
 
-        <Separator className="border-t border-black mb-8" />
+        <Separator className="border-t border-black mb-11" />
 
         {/* Social Media Icons */}
-        <div className="flex justify-center gap-4 mb-8">
+        <div className="flex justify-center gap-4 mb-10">
           <a
             href="https://facebook.com"
-            className="w-12 h-12 rounded-full border-2 border-gray-900 flex items-center justify-center hover:bg-gray-900 hover:text-white transition-colors"
+            className="w-15 h-15 rounded-full border border-[#1d1C1C] flex items-center justify-center hover:bg-[#1D1C1C] hover:text-white transition-colors duration-500"
           >
             <Facebook className="w-5 h-5" />
           </a>
           <a
             href="https://twitter.com"
-            className="w-12 h-12 rounded-full border-2 border-gray-900 flex items-center justify-center hover:bg-gray-900 hover:text-white transition-colors"
+            className="w-15 h-15 rounded-full border border-[#1d1C1C] flex items-center justify-center hover:bg-[#1D1C1C] hover:text-white transition-colors duration-500"
           >
             <Twitter className="w-5 h-5" />
           </a>
           <a
             href="https://instagram.com"
-            className="w-12 h-12 rounded-full border-2 border-gray-900 flex items-center justify-center hover:bg-gray-900 hover:text-white transition-colors"
+            className="w-15 h-15 rounded-full border border-[#1d1C1C] flex items-center justify-center hover:bg-[#1D1C1C] hover:text-white transition-colors duration-500"
           >
             <Instagram className="w-5 h-5" />
           </a>
         </div>
 
-        <Separator className="border-t border-black mb-8" />
+        <Separator className="border-t border-black mb-13" />
 
         {/* Bottom Section */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-700">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-[#1D1C1C]">
           <div className="flex flex-wrap justify-center md:justify-start gap-4">
             <a
               href="#"
-              className="hover:text-gray-900 transition-colors"
+              className="hover:text-[#FEC415] transition-colors duration-300 font-normal"
             >
               Terms of use
             </a>
+
             <a
               href="#"
-              className="hover:text-gray-900 transition-colors"
+              className="hover:text-[#FEC415] transition-colors duration-300"
             >
               Media Kit
             </a>
             <a
               href="#"
-              className="hover:text-gray-900 transition-colors"
+              className="hover:text-[#FEC415] transition-colors duration-300"
             >
               Contacts
             </a>
@@ -105,7 +109,7 @@ export default function Footer() {
               © {currentYear}
               <a
                 href="#"
-                className="underline hover:text-gray-900 transition-colors"
+                className="underline hover:text-gray-900 transition-colors pr-1"
               >
                 Sunshine. All rights reserved.
               </a>

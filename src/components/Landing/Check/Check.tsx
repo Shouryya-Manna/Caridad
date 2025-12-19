@@ -64,7 +64,7 @@ export default function Check() {
           </div>
 
           <Image
-            src="/Woman4.jpeg"
+            src="/IMG4.webp"
             alt=""
             fill
             className="object-cover"

@@ -10,14 +10,14 @@ import { Plus, X } from "lucide-react";
 
 export default function Help() {
   return (
-    <section className="mx-20 py-20 my-20">
+    <section className="mx-20 py-28 my-20">
       <div className="mx-auto flex flex-col max-w-[1239px] px-1 items-center justify-center gap-10 ">
         {/* Header */}
         <div className="text-center">
-          <p className="mb-2 text-lg font-semibold tracking-widest">
+          <p className="mb-5 text-[20px] font-medium text-[#1D1C1C]">
             WHAT WE DO
           </p>
-          <h2 className="text-4xl md:text-5xl font-bold mb-16 mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold mb-18 mx-auto">
             How we help
           </h2>
         </div>
@@ -34,19 +34,27 @@ export default function Help() {
               value={`item+${index}`}
               className="border-0"
             >
-              <AccordionTrigger className="group cursor-pointer flex items-center justify-between py-10 text-left text-2xl font-bold tracking-tight hover:no-underline">
-                <span>{item.title}</span>
-                <span className="ml-4 flex h-8 w-8 items-center justify-center">
-                  <Plus className="h-5 w-5 transition-all group-data-[state=open]:hidden text-gray-500" />
-                  <X className="hidden h-5 w-5 transition-all group-data-[state=open]:block text-gray-500" />
+              <AccordionTrigger className="group cursor-pointer flex items-center justify-between py-10 text-left text-[24px] font-bold tracking-tight hover:no-underline">
+                <span className="text-[#1D1C1C]">
+                  {item.title}
+                </span>
+                <span className="ml-4 flex h-15 w-10 items-center justify-center">
+                  <Plus
+                    strokeWidth={0.5}
+                    className="h-20 w-20 transition-all group-data-[state=open]:hidden text-[#52525b]"
+                  />
+                  <X
+                    strokeWidth={0.5}
+                    className="hidden h-20 w-20 transition-all group-data-[state=open]:block text-[#1D1C1C]"
+                  />
                 </span>
               </AccordionTrigger>
 
-              <AccordionContent className="pb-10 pr-12 max-w-3xl text-base leading-relaxed text-muted-foreground">
+              <AccordionContent className="pb-1 text-base leading-loose duration-1000 ease-in-out text-[#1D1C1C]">
                 {item.description}
               </AccordionContent>
 
-              <Separator />
+              <Separator className="mb-5 mt-4" />
             </AccordionItem>
           ))}
         </Accordion>
