@@ -12,7 +12,7 @@ export default function LatestNews() {
             {/* Image */}
             <div className="relative aspect-square overflow-hidden group cursor-pointer">
               <Image
-                src="/Can1.jpeg"
+                src="/IMG6.jpg"
                 alt=""
                 fill
                 className="object-cover transition-all duration-150 group-hover:grayscale-60"
@@ -56,7 +56,7 @@ export default function LatestNews() {
             {/* Image */}
             <div className="relative aspect-square overflow-hidden group cursor-pointer">
               <Image
-                src="/Can2.png"
+                src="/IMG7.svg"
                 alt=""
                 fill
                 className="object-cover transition-all duration-150 group-hover:grayscale-60"
@@ -68,7 +68,7 @@ export default function LatestNews() {
             {/* Image */}
             <div className="relative aspect-square overflow-hidden group cursor-pointer">
               <Image
-                src="/Can3.png"
+                src="/IMG8.svg"
                 alt=""
                 fill
                 className="object-cover transition-all duration-150 group-hover:grayscale-60"
