@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Donation() {
   return (
-    <section className="mx-auto max-w-[1239px] px-6 py-24">
+    <section className="mx-auto max-w-[1239px] px-1 py-24">
       <div className="mb-16 text-center">
         <p className="mb-4 text-lg font-semibold tracking-widest">
           GET INVOLVED
@@ -15,12 +15,11 @@ export default function Donation() {
       </div>
 
       {/* Content */}
-      <div className="grid grid-cols-1 overflow-hidden md:grid-cols-2 gap-10">
-        {/* Image */}
+      <div className="grid grid-cols-1 overflow-hidden md:grid-cols-2 gap-7">
         {/* Image */}
         <div className="relative h-[600px] md:h-[700px]">
           <Image
-            src="/Woman3.png"
+            src="/IMG11.jpg"
             alt=""
             fill
             className="object-cover"
@@ -28,18 +27,18 @@ export default function Donation() {
         </div>
 
         {/* Actions */}
-        <div className="flex flex-col justify-center bg-amber-500 px-12 py-16 space-y-10">
+        <div className="flex flex-col justify-center bg-[#FEC415] px-12 py-16">
           {[
             "Donate",
             "Contribute",
             "Volunteer",
           ].map((item, index) => (
             <div key={item} className="group">
-              <div className="flex cursor-pointer items-center justify-between py-10">
-                <h3 className="text-5xl font-extrabold text-black">
+              <div className="flex cursor-pointer items-center justify-start gap-6 py-10">
+                <h3 className="flex items-center gap-6 text-[50px] font-extrabold text-tertiary">
                   {item}
+                  <ArrowRight className="w-15 h-10 text-tertiary font-light" />
                 </h3>
-                <ArrowRight className="w-8 h-8 text-black transition-transform group-hover:translate-x-2" />
               </div>
               {index !== 2 && (
                 <Separator className="bg-black/30" />
