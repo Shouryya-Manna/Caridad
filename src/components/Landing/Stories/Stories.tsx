@@ -1,10 +1,10 @@
 export default function Stories() {
   return (
-    <section className="mt-20 mb-18 mx-7">
+    <section className="mt-20 mb-14 mx-7">
       <div className="max-w-[1239px] mx-auto ">
         {/* Header */}
         <div className="text-center mb-20">
-          <p className="mb-3 text-[20px] font-[401] tracking-widest uppercase">
+          <p className="mb-3 text-[20px] font-[401] tracking-normal uppercase">
             Stories
           </p>
           <h2 className="text-[50px] text-[#1D1C1C] font-bold mb-16 mx-auto">
