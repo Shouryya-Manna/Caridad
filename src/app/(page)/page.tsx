@@ -9,6 +9,7 @@ import Impact from "@/components/Landing/Impact/Impact";
 import LatestNews from "@/components/Landing/LatestNews/LatestNews";
 import Mission from "@/components/Landing/Mission/Mission";
 import Percentage from "@/components/Landing/Percentage/Percentage";
+import ScrollToTop from "@/components/Landing/Scroller/ScrollUp";
 import Stories from "@/components/Landing/Stories/Stories";
 
 export default function LandingPage() {
@@ -26,6 +27,7 @@ export default function LandingPage() {
       <LatestNews />
       <Percentage />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }
