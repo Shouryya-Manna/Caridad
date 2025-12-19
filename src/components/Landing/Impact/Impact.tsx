@@ -8,14 +8,14 @@ import Image from "next/image";
 
 export default function Impact() {
   return (
-    <section className="bg-primary pt-35 pb-20">
+    <section className="bg-primary pt-32 pb-15">
       {/* Heading */}
       <div className="mx-auto max-w-full text-center mb-16">
-        <p className="mb-4 text-lg font-semibold tracking-widest">
+        <p className="mb-5 text-[20px] font-[401] tracking-normal uppercase">
           IMPACT
         </p>
-        <h2 className="text-4xl md:text-5xl font-bold mb-16 mx-auto">
-          Helping women now through early <br />
+        <h2 className="text-[50px] leading-15 text-tertiary font-bold mb-16 mx-auto max-w-5xl wrap-break-word">
+          Helping women now through early
           detection, education, and support
         </h2>
       </div>
@@ -51,6 +51,7 @@ export default function Impact() {
               </CarouselItem>
             ))}
           </CarouselContent>
+          
         </Carousel>
       </div>
     </section>
