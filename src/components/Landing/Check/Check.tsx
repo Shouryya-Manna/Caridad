@@ -60,7 +60,7 @@ export default function Check() {
         >
           {/* play button */}
           <div className="absolute inset-0 z-10 flex items-center justify-center">
-            <div className="group w-30 h-30 rounded-full bg-[#1D1C1C] hover:bg-[#ffff] transition-colors flex items-center justify-center">
+            <div className="group w-30 h-30 rounded-full bg-tertiary hover:bg-[#ffff] transition-colors flex items-center justify-center">
               <div className="w-6 h-6 border-l-20 border-l-white border-y-12 border-y-transparent group-hover:border-l-[#1D1C1C] transition-colors" />
             </div>
           </div>
