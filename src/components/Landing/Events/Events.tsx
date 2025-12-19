@@ -129,7 +129,7 @@ export default function Events() {
 
         {/* Footer link */}
         <div className="mt-10 text-center">
-          <Button className="text-sm font-semibold text-gray-900 cursor-pointer">
+          <Button className="text-[16px] underline transition-colors duration-300 underline-offset-9 decoration-yellow-200  font-semibold text-gray-900 cursor-pointer">
             View all events
           </Button>
         </div>
