@@ -40,9 +40,11 @@ export default function Donation() {
               <div className="flex cursor-pointer items-center justify-between py-10">
                 <h3 className="flex items-center gap-6 text-[50px] font-extrabold text-black relative">
                   {item}
-                  <ArrowRight
-                    className="w-16 h-8 text-black"
-                    strokeWidth={1.5}
+                  <Image
+                    src="/Arrow.svg"
+                    alt=""
+                    fill
+                    className="w-10 h-8 text-black"
                   />
                   <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-black transition-all duration-500 group-hover:w-full"></span>
                 </h3>
