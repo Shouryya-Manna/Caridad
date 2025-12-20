@@ -4,6 +4,7 @@ import { HeaderData } from "@/data/Header.data";
 import { Bars2Icon } from "@heroicons/react/16/solid";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import SheetStyle from "./Components/SheetStyle";
 
 export default function Header() {
   const [hidden, setHidden] = useState(false);
@@ -101,7 +102,7 @@ export default function Header() {
 
         {/* Buttons */}
         <div className="ml-auto flex gap-7 w-83 justify-end items-center mr-2">
-          <Bars2Icon className="h-8 w-8 cursor-pointer my-3" />
+          <SheetStyle />
           <Button
             className="bg-transparent cursor-pointer text-[16px] font-[650] hover:bg-black hover:text-white rounded-4xl h-12.5 w-33 border border-black focus-visible:ring-0 focus-visible:ring-offset-0"
             variant="outline"
