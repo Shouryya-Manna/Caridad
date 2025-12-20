@@ -1,4 +1,6 @@
-export const EventData = [
+import { EventType } from "@/@types/EventType";
+
+export const EventData: EventType[] = [
   {
     date: "08",
     month: "Mar",

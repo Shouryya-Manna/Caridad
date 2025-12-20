@@ -1,4 +1,6 @@
-export const ImpactData = [
+import { ImpactType } from "@/@types/ImpactType";
+
+export const ImpactData: ImpactType[] = [
   {
     imageUrl: "/Woman1.jpg",
     data: "There are over 3.5 million breast cancer survivors in the United States",
