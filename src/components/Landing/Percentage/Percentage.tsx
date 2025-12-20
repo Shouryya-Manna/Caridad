@@ -18,7 +18,7 @@ export default function WhereMoneyGoes() {
             <p className="text-[70px] font-bold">
               72%
             </p>
-            <p className="text-[16px] text-[#1D1C1C] text-left">
+            <p className="text-[16px] text-tertiary text-left">
               Research & Support
             </p>
           </div>
@@ -36,7 +36,7 @@ export default function WhereMoneyGoes() {
             <p className="text-[70px] font-bold">
               28%
             </p>
-            <p className="text-[16px] text-[#1D1C1C] text-left">
+            <p className="text-[16px] text-tertiary text-left">
               Fundraising
             </p>
           </div>

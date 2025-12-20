@@ -4,7 +4,7 @@ export default function LatestNews() {
   return (
     <section className="w-full flex justify-center py-15">
       <div className="max-w-[1239px] mx-7 w-full">
-        <h2 className="text-[50px] font-bold mb-22 text-center text-[#1D1C1C]">
+        <h2 className="text-[50px] font-bold mb-22 text-center text-tertiary">
           Latest News
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
@@ -21,7 +21,7 @@ export default function LatestNews() {
 
             {/* Content */}
             <div className="p-5 flex flex-col min-h-[570px]">
-              <p className="text-[16px] mx-4 mt-1 text-[#1D1C1C] mb-2">
+              <p className="text-[16px] mx-4 mt-1 text-tertiary mb-2">
                 20 Jun 2020
               </p>
 
@@ -31,7 +31,7 @@ export default function LatestNews() {
                 Lupo—Raised $12,000 for Research
               </h3>
 
-              <button className="text-[16px] underline  text-[#1D1C1C] underline-offset-9 decoration-yellow-200 cursor-pointer font-bold text-left mx-4">
+              <button className="text-[16px] underline  text-tertiary underline-offset-9 decoration-yellow-200 cursor-pointer font-bold text-left mx-4">
                 Read more
               </button>
             </div>
@@ -40,7 +40,7 @@ export default function LatestNews() {
           <div>
             {/* Content */}
             <div className="p-5 flex flex-col min-h-[570px]">
-              <p className="text-[16px] mx-4 mt-1 text-[#1D1C1C] mb-2">
+              <p className="text-[16px] mx-4 mt-1 text-tertiary mb-2">
                 20 Jun 2020
               </p>
 
@@ -49,7 +49,7 @@ export default function LatestNews() {
                 What Patients Need to Know
               </h3>
 
-              <button className="text-[16px] underline transition-colors duration-300 text-[#1D1C1C] underline-offset-9 decoration-yellow-200 cursor-pointer font-bold text-left mx-4">
+              <button className="text-[16px] underline transition-colors duration-300 text-tertiary underline-offset-9 decoration-yellow-200 cursor-pointer font-bold text-left mx-4">
                 Read more
               </button>
             </div>
@@ -77,7 +77,7 @@ export default function LatestNews() {
 
             {/* Content */}
             <div className="p-5 flex flex-col min-h-[570px]">
-              <p className="text-[16px] mx-4 mt-1 text-[#1D1C1C] mb-2">
+              <p className="text-[16px] mx-4 mt-1 text-tertiary mb-2">
                 20 Jun 2020
               </p>
 
@@ -88,7 +88,7 @@ export default function LatestNews() {
                 No Family History Read more
               </h3>
 
-              <button className="text-[16px] underline  text-[#1D1C1C] underline-offset-9 decoration-yellow-200 cursor-pointer font-bold text-left mx-4">
+              <button className="text-[16px] underline  text-tertiary underline-offset-9 decoration-yellow-200 cursor-pointer font-bold text-left mx-4">
                 Read more
               </button>
             </div>
@@ -97,7 +97,7 @@ export default function LatestNews() {
           <div>
             {/* Content */}
             <div className="p-5 flex flex-col min-h-[570px]">
-              <p className="text-[16px] mx-4 mt-1 text-[#1D1C1C] mb-2">
+              <p className="text-[16px] mx-4 mt-1 text-tertiary mb-2">
                 20 Jun 2020
               </p>
 
@@ -107,7 +107,7 @@ export default function LatestNews() {
                 to Come
               </h3>
 
-              <button className="text-[16px] underline  text-[#1D1C1C] underline-offset-9 decoration-yellow-200 cursor-pointer font-bold text-left mx-4">
+              <button className="text-[16px] underline  text-tertiary underline-offset-9 decoration-yellow-200 cursor-pointer font-bold text-left mx-4">
                 Read more
               </button>
             </div>

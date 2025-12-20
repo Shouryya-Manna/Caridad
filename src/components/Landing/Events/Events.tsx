@@ -21,7 +21,7 @@ export default function Events() {
         <div className="">
           <div className="flex items-center justify-between py-8 px-8">
             <div className="flex items-center gap-13">
-              <div className="flex h-23 w-23 flex-col items-center justify-center rounded-full bg-[#FEC415] text-[#1D1C1C]">
+              <div className="flex h-23 w-23 flex-col items-center justify-center rounded-full bg-[#FEC415] text-tertiary">
                 <span className="text-[24px] font-bold leading-none">
                   08
                 </span>
@@ -31,7 +31,7 @@ export default function Events() {
               </div>
 
               {/* Title */}
-              <h3 className="text-[24px] font-bold text-[#1D1C1C] hover:text-yellow-400 transition-colors duration-200 cursor-pointer">
+              <h3 className="text-[24px] font-bold text-tertiary hover:text-yellow-400 transition-colors duration-200 cursor-pointer">
                 Big Pink Jump March
               </h3>
             </div>
@@ -58,7 +58,7 @@ export default function Events() {
 
           <div className="flex items-center justify-between py-8 p-10">
             <div className="flex items-center gap-13">
-              <div className="flex h-23 w-23 flex-col items-center justify-center rounded-full bg-[#FEC415] text-[#1D1C1C]">
+              <div className="flex h-23 w-23 flex-col items-center justify-center rounded-full bg-[#FEC415] text-tertiary">
                 <span className="text-[24px] font-bold leading-none">
                   16
                 </span>
@@ -67,7 +67,7 @@ export default function Events() {
                 </span>
               </div>
 
-              <h3 className="text-[24px] font-bold text-[#1D1C1C] hover:text-yellow-400 transition-colors duration-200 cursor-pointer">
+              <h3 className="text-[24px] font-bold text-tertiary hover:text-yellow-400 transition-colors duration-200 cursor-pointer">
                 Younger Women Together Online
               </h3>
             </div>
@@ -93,7 +93,7 @@ export default function Events() {
 
           <div className="flex items-center justify-between py-8 p-10">
             <div className="flex items-center gap-13">
-              <div className="flex h-23 w-23 flex-col items-center justify-center rounded-full bg-[#FEC415] text-[#1D1C1C]">
+              <div className="flex h-23 w-23 flex-col items-center justify-center rounded-full bg-[#FEC415] text-tertiary">
                 <span className="text-[24px] font-bold leading-none">
                   21
                 </span>
@@ -102,7 +102,7 @@ export default function Events() {
                 </span>
               </div>
 
-              <h3 className="text-[24px] font-bold text-[#1D1C1C] hover:text-yellow-400 transition-colors duration-200 cursor-pointer">
+              <h3 className="text-[24px] font-bold text-tertiary hover:text-yellow-400 transition-colors duration-200 cursor-pointer">
                 Women V Cancer - Ride the Night
               </h3>
             </div>

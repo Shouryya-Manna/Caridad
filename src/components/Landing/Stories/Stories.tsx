@@ -7,7 +7,7 @@ export default function Stories() {
           <p className="mb-3 text-[20px] font-[401] tracking-normal uppercase">
             Stories
           </p>
-          <h2 className="text-[50px] text-[#1D1C1C] font-bold mb-16 mx-auto">
+          <h2 className="text-[50px] text-tertiary font-bold mb-16 mx-auto">
             Stories of Hope
           </h2>
         </div>
@@ -27,14 +27,14 @@ export default function Stories() {
               “
             </div>
 
-            <p className="text-[24px] text-[1D1C1C] font-bold leading-[1.3] mb-8">
+            <p className="text-[24px] text-tertiary font-bold leading-[1.3] mb-8">
               "Being a survivor now, I realized I
               was not educated or aware about what
               breast cancer actually was and how
               it impacted and affected people."
             </p>
 
-            <div className="text-[16px] text-[#1D1C1C] flex flex-col gap-2.5">
+            <div className="text-[16px] text-tertiary flex flex-col gap-2.5">
               <p className="">Rena Hart</p>
               <p>
                 Breast Cancer Survivor & Caregiver
@@ -42,7 +42,7 @@ export default function Stories() {
               </p>
             </div>
 
-            <button className="mt-8 w-fit text-[16px] font-bold text-[#1D1C1C] border-b-2 border-black cursor-pointer">
+            <button className="mt-8 w-fit text-[16px] font-bold text-tertiary border-b-2 border-black cursor-pointer">
               Read more
             </button>
           </div>

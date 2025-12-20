@@ -19,22 +19,22 @@ export default function Cause() {
               <p className="mx-auto mb-6 text-[20px] tracking-wide font-[401]">
                 CAUSE
               </p>
-              <span className="block font-extrabold leading-[1.2] text-[#1D1C1C]">
+              <span className="block font-extrabold leading-[1.2] text-tertiary">
                 Support
               </span>
-              <span className="block font-extrabold leading-[1.2] text-[#1D1C1C]">
+              <span className="block font-extrabold leading-[1.2] text-tertiary">
                 groundbreaking
               </span>
-              <span className="block font-extrabold leading-[1.2] text-[#1D1C1C]">
+              <span className="block font-extrabold leading-[1.2] text-tertiary">
                 research to help save
               </span>
-              <span className="block font-extrabold leading-[1.2] text-[#1D1C1C]">
+              <span className="block font-extrabold leading-[1.2] text-tertiary">
                 lives
               </span>
             </h2>
 
             {/* Circle */}
-            <div className="absolute bottom-[-70px] right-25 z-50 h-64 w-64 rounded-full bg-[#1D1C1C] text-white flex items-center justify-center p-5">
+            <div className="absolute bottom-[-70px] right-25 z-50 h-64 w-64 rounded-full bg-tertiary text-white flex items-center justify-center p-5">
               <div className="flex items-center gap-2">
                 <div className="flex flex-col">
                   <span className="text-7xl font-bold leading-14">
@@ -58,14 +58,14 @@ export default function Cause() {
 
           {/* Paragraph div */}
           <div className="max-w-lg mt-30">
-            <p className="text-[16px] leading-[1.83] text-[#1D1C1C]">
+            <p className="text-[16px] leading-[1.83] text-tertiary">
               So many younger women are being
               diagnosed with breast cancer and are
               dying needlessly. It's critical that
               research is undertaken in this area
               now to help save their lives.
             </p>
-            <Button className="my-5 mt-8 cursor-pointer text-[16px] text-[#1D1C1C] font-bold hover:bg-black hover:text-white rounded-4xl h-14 w-40 bg-[#FEC415]">
+            <Button className="my-5 mt-8 cursor-pointer text-[16px] text-tertiary font-bold hover:bg-black hover:text-white rounded-4xl h-14 w-40 bg-[#FEC415]">
               Donate
             </Button>
           </div>

@@ -20,7 +20,7 @@ export default function Footer() {
               women in need
             </span>
           </h2>
-          <button className="text-[16px] text-[#1D1C1C] font-bold cursor-pointer hover:bg-black hover:text-white rounded-4xl h-16.5 w-45 bg-[#FEC415]">
+          <button className="text-[16px] text-tertiary font-bold cursor-pointer hover:bg-black hover:text-white rounded-4xl h-16.5 w-45 bg-[#FEC415]">
             Donate
           </button>
         </div>
@@ -31,25 +31,25 @@ export default function Footer() {
         <nav className="flex flex-wrap justify-center gap-15 mb-8 text-sm md:text-base">
           <a
             href="#"
-            className="text-[#1D1C1C] hover:text-[#FEC415] transition-colors duration-300 font-semibold text-[18px] mb-5"
+            className="text-tertiary hover:text-[#FEC415] transition-colors duration-300 font-semibold text-[18px] mb-5"
           >
             What We Do
           </a>
           <a
             href="#"
-            className="text-[#1D1C1C] hover:text-[#FEC415] duration-300 font-semibold  text-[18px] transition-colors"
+            className="text-tertiary hover:text-[#FEC415] duration-300 font-semibold  text-[18px] transition-colors"
           >
             About Us
           </a>
           <a
             href="#"
-            className="text-[#1D1C1C] hover:text-[#FEC415] transition-colors duration-300 font-semibold text-[18px]"
+            className="text-tertiary hover:text-[#FEC415] transition-colors duration-300 font-semibold text-[18px]"
           >
             Get Involved
           </a>
           <a
             href="#"
-            className="text-[#1D1C1C] hover:text-[#FEC415] duration-300 font-semibold text-[18px] transition-colors"
+            className="text-tertiary hover:text-[#FEC415] duration-300 font-semibold text-[18px] transition-colors"
           >
             Membership & Giving
           </a>
@@ -61,19 +61,19 @@ export default function Footer() {
         <div className="flex justify-center gap-4 mb-10">
           <a
             href="https://facebook.com"
-            className="w-15 h-15 rounded-full border border-[#1d1C1C] flex items-center justify-center hover:bg-[#1D1C1C] hover:text-white transition-colors duration-500"
+            className="w-15 h-15 rounded-full border border-tertiary flex items-center justify-center hover:bg-tertiary hover:text-white transition-colors duration-500"
           >
             <Facebook className="w-5 h-5" />
           </a>
           <a
             href="https://twitter.com"
-            className="w-15 h-15 rounded-full border border-[#1d1C1C] flex items-center justify-center hover:bg-[#1D1C1C] hover:text-white transition-colors duration-500"
+            className="w-15 h-15 rounded-full border border-tertiary flex items-center justify-center hover:bg-tertiary hover:text-white transition-colors duration-500"
           >
             <Twitter className="w-5 h-5" />
           </a>
           <a
             href="https://instagram.com"
-            className="w-15 h-15 rounded-full border border-[#1d1C1C] flex items-center justify-center hover:bg-[#1D1C1C] hover:text-white transition-colors duration-500"
+            className="w-15 h-15 rounded-full border border-tertiary flex items-center justify-center hover:bg-tertiary hover:text-white transition-colors duration-500"
           >
             <Instagram className="w-5 h-5" />
           </a>
@@ -82,7 +82,7 @@ export default function Footer() {
         <Separator className="border-t border-black mb-13" />
 
         {/* Bottom Section */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-[#1D1C1C]">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-tertiary">
           <div className="flex flex-wrap justify-center md:justify-start gap-4">
             <a
               href="#"

@@ -10,7 +10,7 @@ export default function Mission() {
             Our Mission Is Simple
           </p>
 
-          <div className="text-[120px] font-extrabold leading-[0.9] text-[#1D1C1C] mt-8">
+          <div className="text-[120px] font-extrabold leading-[0.9] text-tertiary mt-8">
             <span className="block tracking-normal">
               Stop
             </span>
@@ -20,7 +20,7 @@ export default function Mission() {
             <span className="block">cancer</span>
           </div>
 
-          <button className="my-8 font-bold text-[#1D1C1C] text-[16px] cursor-pointer underline underline-offset-9 decoration-yellow-200">
+          <button className="my-8 font-bold text-tertiary text-[16px] cursor-pointer underline underline-offset-9 decoration-yellow-200">
             Learn more
           </button>
         </div>
