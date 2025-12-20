@@ -3,7 +3,6 @@ import {
   Sheet,
   SheetContent,
   SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "../../../ui/sheet";
 import { Bars2Icon } from "@heroicons/react/16/solid";
