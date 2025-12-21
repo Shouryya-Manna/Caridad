@@ -26,7 +26,7 @@ export default function Team() {
           can't be achieved.”
         </p>
       </div>
-      <div className="flex flex-col items-start justify-end">
+      <div className="flex flex-col items-start justify-center">
         <div className="relative h-[330px] w-[280px]">
           <Image
             src="/About-Us/Ab5.jpg"
@@ -48,7 +48,7 @@ export default function Team() {
           life.”
         </p>
       </div>
-      <div className="flex flex-col justify-center py-50">
+      <div className="flex flex-col justify-center py-60">
         <p className="mb-3 text-[20px] font-[401] uppercase">
           Team
         </p>
