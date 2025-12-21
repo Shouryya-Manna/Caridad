@@ -107,7 +107,7 @@ function SheetContent({
       >
         {children}
         <SheetPrimitive.Close className="ring-offset-background focus:ring-0 absolute top-4 right-4 rounded-xs focus:ring-offset-0 focus:outline-hidden disabled:pointer-events-none">
-          <X className="size-9 mt-6 font-bold cursor-pointer" />
+          <X className="size-9 m-7 font-bold cursor-pointer" />
           <span className="sr-only">Close</span>
         </SheetPrimitive.Close>
       </SheetPrimitive.Content>

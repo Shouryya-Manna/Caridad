@@ -24,8 +24,7 @@ export default function Help() {
 
         {/* Accordion */}
         <Accordion
-          type="single"
-          collapsible
+          type="multiple"
           className="w-full"
         >
           {HelpData.map((item, index) => (
