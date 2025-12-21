@@ -56,9 +56,9 @@ export default function Team() {
           Meet our leadership team
         </h2>
 
-        <Button className="text-2xl underline transition-colors duration-300 text-tertiary underline-offset-9 decoration-yellow-200 cursor-pointer font-bold text-left mx-4">
+        <button className="my-8 font-bold text-tertiary text-[16px] cursor-pointer underline underline-offset-9 text-left decoration-yellow-200">
           Get Involved
-        </Button>
+        </button>
       </div>
     </section>
   );

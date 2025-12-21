@@ -41,9 +41,10 @@ export default function SuccessStories() {
           extreme poverty or dealing with other
           difficult family circumstances.
         </p>
-        <Button className="text-[16px] underline my-6 text-tertiary underline-offset-9 decoration-yellow-200 cursor-pointer font-bold text-left">
+
+        <button className="my-8 font-bold text-tertiary text-[16px] cursor-pointer underline underline-offset-9 text-left decoration-yellow-200">
           View children success stories
-        </Button>
+        </button>
       </div>
     </section>
   );

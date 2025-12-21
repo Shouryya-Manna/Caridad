@@ -4,15 +4,15 @@ import React from "react";
 export default function Charity() {
   return (
     <section className="max-w-8xl mx-auto w-full grid grid-cols-3 px-7.5 py-25">
-      <div className="relative h-[330px] w-[280px] pb-50 items-start flex">
+      <div className="relative h-[330px] w-[280px]">
         <Image
           src="/About-Us/Ab1.jpg"
           alt=""
           fill
-          className="object-contain object-top-left"
+          className="object-contain object-center"
         />
       </div>
-      <div className="relative h-[330px] w-[280px] pb-50 items-center flex">
+      <div className="relative h-[330px] w-[280px] mt-30">
         <Image
           src="/About-Us/Ab2.webp"
           alt=""
@@ -20,11 +20,12 @@ export default function Charity() {
           className="object-contain object-center"
         />
       </div>
-      <div>
-        <h2 className="text-[50px] text-tertiary">
+
+      <div className="flex flex-col justify-center py-50 leading-[1.1] max-w-sm">
+        <h2 className="text-[50px] text-tertiary font-bold pb-5">
           What is Charity all about
         </h2>
-        <p className="text-tertiary">
+        <p className="text-tertiary text-base leading-[1.8] my-5">
           A better life for young women can mean
           many things. A girl who completes her
           schooling grows into a woman who is
