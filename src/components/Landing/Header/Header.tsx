@@ -1,7 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { HeaderData } from "@/data/Header.data";
-import { Bars2Icon } from "@heroicons/react/16/solid";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import SheetStyle from "./Components/SheetStyle";
@@ -74,7 +73,9 @@ export default function Header() {
                   
                     ${index < 1 ? "pl-6.5" : ""}`}
               >
-                {item.menu}
+                <a href="/about-us">
+                  {item.menu}
+                </a>
               </div>
 
               {/* Dropdown */}
