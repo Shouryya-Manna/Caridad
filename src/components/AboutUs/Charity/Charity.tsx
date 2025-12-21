@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Charity() {
   return (
-    <section className="max-w-8xl mx-auto w-full grid grid-cols-3 px-7.5">
-      <div className="relative h-[500px] w-[200px] pb-50 items-start flex">
+    <section className="max-w-8xl mx-auto w-full grid grid-cols-3 px-7.5 py-25">
+      <div className="relative h-[330px] w-[280px] pb-50 items-start flex">
         <Image
           src="/About-Us/Ab1.jpg"
           alt=""
@@ -12,7 +12,7 @@ export default function Charity() {
           className="object-contain object-top-left"
         />
       </div>
-      <div className="relative h-[500px] w-[200px] pb-50 items-start flex">
+      <div className="relative h-[330px] w-[280px] pb-50 items-center flex">
         <Image
           src="/About-Us/Ab2.webp"
           alt=""
