@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function SuccessStories() {
@@ -40,9 +41,9 @@ export default function SuccessStories() {
           extreme poverty or dealing with other
           difficult family circumstances.
         </p>
-        <button className="text-[16px] underline my-6 text-tertiary underline-offset-9 decoration-yellow-200 cursor-pointer font-bold text-left">
+        <Button className="text-[16px] underline my-6 text-tertiary underline-offset-9 decoration-yellow-200 cursor-pointer font-bold text-left">
           View children success stories
-        </button>
+        </Button>
       </div>
     </section>
   );
