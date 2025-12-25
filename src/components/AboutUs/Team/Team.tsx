@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Team() {
   return (
-    <section className="max-w-8xl mx-auto w-full grid grid-cols-3 px-7.5 my-30 py-30 gap-x-20">
+    <section className="max-w-8xl mx-auto w-full grid grid-cols-3 px-7.5 mt-30 py-30 gap-x-20">
       <div className="flex flex-col items-start">
         <div className="relative h-[330px] w-[280px]">
           <Image
