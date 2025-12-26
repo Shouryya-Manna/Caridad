@@ -2,34 +2,42 @@ import Image from "next/image";
 
 export default function Section04() {
   return (
-    <section className="max-w-8xl w-full px-7.5 mb-40">
-      <div className="flex gap-10">
-        <div className="relative max-w-180 w-full max-h-400 h-full">
-          <Image
-            src="/What-We-Do/Wwd04.webp"
-            alt=""
-            fill
-            className="object-cover"
-          />
-          <div>
-            <p>
-              The students supported by our
-              programs face major barriers to
-              accessing education; many are
-              orphaned, living in extreme poverty
-              or dealing with other difficult
-              family circumstances.
-            </p>
-            <button className="mt-8 font-bold text-tertiary text-[16px] cursor-pointer underline underline-offset-9 text-left decoration-yellow-200">
+    <section className="max-w-8xl mx-auto w-full px-7.5 mb-40">
+      <div className="flex gap-20 items-start">
+        <div className="max-w-[690px] w-full flex flex-col gap-30">
+          <div className="relative w-full h-[380px]">
+            <Image
+              src="/What-We-Do/Wwd04.webp"
+              alt=""
+              fill
+              className="object-cover"
+            />
+          </div>
+
+          <p className="max-w-[520px] text-base leading-relaxed text-tertiary">
+            The students supported by our programs
+            face major barriers to
+            <span className="font-bold">
+              {" "}
+              accessing education
+            </span>
+            ; many are orphaned, living in extreme
+            poverty or dealing with other
+            difficult family circumstances.
+            <button className=" mt-12 cursor-pointer font-bold text-tertiary text-[16px] underline underline-offset-8 decoration-yellow-300">
               View all children
             </button>
-          </div>
+          </p>
         </div>
-        <div className="lg:basis-[45%]">
-          <h2 className="mb-5 text-tertiary text-xl font-medium">
+        <div className="flex flex-col justify-center lg:mt-100 px-10">
+          <h2 className="mb-6 text-tertiary text-xl font-medium">
             03
           </h2>
-          <p className="lg:text-5xl md:text-3xl text-[28px] text-tertiary font-bold max-w-xl leading-[1.2]">
+
+          <p
+            className="text-tertiary font-bold leading-[1.15] 
+                        text-5xl max-w-xs"
+          >
             Empower young people
           </p>
         </div>
