@@ -3,7 +3,7 @@ import CustomButton from "../Global/CustomButton";
 
 export default function Gift() {
   return (
-    <section className="max-w-8xl mx-auto w-full px-7.5 mt-30 py-30 flex flex-row items-center justify-between gap-15">
+    <section className="max-w-8xl mx-auto w-full px-7.5 my-40 flex flex-row items-center justify-between gap-15">
       <div className="flex flex-1 flex-col justify-center">
         <p className="mb-3 text-[20px] font-[401] uppercase">
           03
