@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function SponsorChild() {
   return (
-    <section className="max-w-8xl mx-auto w-full grid grid-cols-3 px-7.5 mt-30 py-30">
+    <section className="max-w-8xl mx-auto w-full grid grid-cols-3 px-7.5 py-30 bg-[#F8F9F3]">
       <div className="flex flex-col items-start">
         <div className="flex flex-col items-start">
           <div className="relative h-[355px] w-[275px] mb-6">
