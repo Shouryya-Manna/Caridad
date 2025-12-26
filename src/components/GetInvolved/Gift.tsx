@@ -3,8 +3,8 @@ import CustomButton from "../Global/CustomButton";
 
 export default function Gift() {
   return (
-    <section className="max-w-8xl mx-auto w-full grid grid-cols-3 px-7.5 mt-30 py-30">
-      <div className="flex flex-col justify-center py-30">
+    <section className="max-w-8xl mx-auto w-full px-7.5 mt-30 py-30 flex flex-row items-center justify-between gap-15">
+      <div className="flex flex-1 flex-col justify-center">
         <p className="mb-3 text-[20px] font-[401] uppercase">
           03
         </p>
@@ -22,9 +22,8 @@ export default function Gift() {
           buttonName="Shop"
         />
       </div>
-
-      <div className="flex items-start">
-        <div className="relative h-[300px] w-[290px]">
+      <div className="flex-1 flex justify-end">
+        <div className="relative h-[330px] max-w-70 w-full">
           <Image
             src="/Get-Involved/GI01.webp"
             alt=""
@@ -32,8 +31,10 @@ export default function Gift() {
             className="object-cover"
           />
         </div>
+      </div>
 
-        <div className="relative h-[380px] w-[290px]">
+      <div className="flex-1 flex justify-end items-start pt-40">
+        <div className="relative h-[330px] max-w-70 w-full">
           <Image
             src="/Get-Involved/GI02.webp"
             alt=""
