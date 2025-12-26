@@ -7,14 +7,6 @@ export default function () {
     useState<string>("10.00");
   return (
     <>
-      <div className="flex justify-between my-15">
-        <span className="text-yellow-200">
-          Raised: $0
-        </span>
-        <span className="text-[#7A8897]">
-          Goal: $100,000
-        </span>
-      </div>
       <div className="flex items-center gap-10">
         <div className="flex">
           {[

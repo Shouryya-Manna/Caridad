@@ -12,6 +12,15 @@ export default function Sponsor() {
       <h2 className="text-[50px] font-bold text-tertiary">
         Sponsor our work
       </h2>
+
+      <div className="flex justify-between my-15">
+        <span className="text-yellow-200">
+          Raised: $0
+        </span>
+        <span className="text-[#7A8897]">
+          Goal: $100,000
+        </span>
+      </div>
       <SponsorAmount />
       <p className="uppercase text-tertiary text-xl font-semibold mt-4">
         or:
