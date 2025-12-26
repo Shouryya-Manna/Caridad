@@ -25,7 +25,7 @@ export default function WhereMoneyGoes() {
 
           <div className="relative h-18 w-38">
             <Image
-              src="/ribbon.svg"
+              src="/Landing-Page/ribbon.svg"
               alt=""
               fill
               className="object-contain"

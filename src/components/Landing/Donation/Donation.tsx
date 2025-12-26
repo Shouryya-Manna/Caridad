@@ -19,7 +19,7 @@ export default function Donation() {
         {/* Image */}
         <div className="relative h-[650px]">
           <Image
-            src="/IMG11.jpg"
+            src="/Landing-Page/IMG10.jpg"
             alt=""
             fill
             className="object-cover"

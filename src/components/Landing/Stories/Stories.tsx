@@ -16,7 +16,7 @@ export default function Stories() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-7 ">
           <div className="overflow-hidden">
             <img
-              src="/IMG9.jpg"
+              src="/Landing-Page/IMG9.jpg"
               alt=""
               className="w-full h-full object-cover scale-110"
             />

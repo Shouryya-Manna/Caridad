@@ -8,7 +8,7 @@ export default function Cause() {
         <div className="flex items-center gap-14">
           <div className="relative h-[605px] w-[790px] shrink-0">
             <Image
-              src="/IMG2.png"
+              src="/Landing-Page/IMG2.png"
               alt=""
               fill
               className="object-cover"

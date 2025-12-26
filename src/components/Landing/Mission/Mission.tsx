@@ -28,7 +28,7 @@ export default function Mission() {
         {/* Image div */}
         <div className="relative h-[890px] w-[907px] pl-1">
           <Image
-            src="/IMG1.webp"
+            src="/Landing-Page/IMG1.webp"
             alt=""
             fill
             className="object-cover object-[15%] mt-50"

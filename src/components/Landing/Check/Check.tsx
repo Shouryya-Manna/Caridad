@@ -66,7 +66,7 @@ export default function Check() {
           </div>
 
           <Image
-            src="/IMG10.jpg"
+            src="/Landing-Page/IMG4.jpg"
             alt=""
             fill
             className="object-cover"
