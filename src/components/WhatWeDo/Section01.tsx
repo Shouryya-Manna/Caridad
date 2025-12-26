@@ -18,7 +18,7 @@ export default function Section01() {
           </button>
         </div>
         <div className="order-1 lg:order-2 lg:basis-[32%]">
-          <h2 className="mb-5 text-tertiary text-base">
+          <h2 className="mb-5 text-tertiary text-xl font-medium">
             01
           </h2>
           <p className="lg:text-5xl md:text-3xl text-[28px] text-tertiary font-bold max-w-sm leading-[1.2]">
