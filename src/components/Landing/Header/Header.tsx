@@ -73,7 +73,12 @@ export default function Header() {
                   
                     ${index < 1 ? "pl-6.5" : ""}`}
               >
-                <a href="/about-us">
+                <a
+                  href={`/${item.menu
+                    .toLowerCase()
+                    .trim()
+                    .replace(/\s+/g, "-")}`}
+                >
                   {item.menu}
                 </a>
               </div>
