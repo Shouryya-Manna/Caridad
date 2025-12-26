@@ -49,7 +49,7 @@ export default function DynamicHeader() {
         {/* Logo */}
         <div className="relative flex max-w-90 w-41 h-20 justify-start items-center cursor-pointer">
           <Image
-            src="/logo.svg"
+            src="/caridad.svg"
             alt=""
             fill
             className="object-fill"

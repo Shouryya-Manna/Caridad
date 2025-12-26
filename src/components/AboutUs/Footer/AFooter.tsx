@@ -10,7 +10,7 @@ export default function AFooter() {
     <footer className="max-w-8xl mx-auto w-full px-8 py-12 bg-[#F9F8F3] text-[#1A1A1A] font-sans">
       <div className="relative flex max-w-90 w-41 h-20 justify-start items-center cursor-pointer">
         <Image
-          src="/logo.svg"
+          src="/caridad.svg"
           alt="Caridad Logo"
           fill
           className="object-contain"
