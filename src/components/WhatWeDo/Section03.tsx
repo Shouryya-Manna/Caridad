@@ -1,6 +1,8 @@
+import Image from "next/image";
+
 export default function Section03() {
   return (
-    <section className="max-w-8xl w-full px-7.5 lg:py-60 my-20 bg-[#F8F9F3]">
+    <section className="max-w-8xl w-full px-7.5 lg:py-60 my-20 bg-[#F8F9F3] relative">
       <div className="flex flex-col lg:flex-row md:flex-row gap-25">
         <div className="lg:basis-[45%]">
           <h2 className="mb-5 text-tertiary text-xl font-medium">
@@ -32,6 +34,16 @@ export default function Section03() {
             transition to higher education.
           </p>
         </div>
+      </div>
+
+      <div className="absolute -bottom-80 right-5 w-60 h-[380px]">
+        <Image
+          src="/What-We-Do/Wwd05.webp"
+          alt=""
+          width={520}
+          height={380}
+          className="object-contain"
+        />
       </div>
     </section>
   );
