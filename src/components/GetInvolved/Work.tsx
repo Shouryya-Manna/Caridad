@@ -2,7 +2,7 @@ import SponsorAmount from "../Global/SponsorAmount";
 
 export default function Work() {
   return (
-    <section className="w-full bg-[#F8F9F3]">
+    <section className="w-full bg-primary">
       <div className="max-w-8xl w-full mx-auto px-7.5 py-32">
         <h2 className="mb-2 text-tertiary text-xl font-medium text-center">
           01
