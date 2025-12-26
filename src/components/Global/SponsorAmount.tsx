@@ -1,0 +1,62 @@
+"use client";
+import { useState } from "react";
+import { Button } from "../ui/button";
+
+export default function () {
+  const [selectedAmount, setSelectedAmount] =
+    useState<string>("10.00");
+  return (
+    <>
+      <div className="flex justify-between my-15">
+        <span className="text-yellow-200">
+          Raised: $0
+        </span>
+        <span className="text-[#7A8897]">
+          Goal: $100,000
+        </span>
+      </div>
+      <div className="flex items-center gap-10">
+        <div className="flex">
+          {[
+            "10.00",
+            "25.00",
+            "50.00",
+            "75.00",
+          ].map((items, index) => (
+            <div
+              key={index}
+              onClick={() =>
+                setSelectedAmount(items)
+              }
+              className={`w-21 h-21 mx-5 my-4 rounded-full border-2 border-black flex items-center justify-center font-semibold text-base cursor-pointer transition-all duration-200 
+                ${
+                  selectedAmount === items
+                    ? "bg-black text-white"
+                    : "bg-transparent text-tertiary"
+                }
+  `}
+            >
+              $ {items}
+            </div>
+          ))}
+        </div>
+        <div className="w-47 h-21 rounded-full border-2 gap-8 border-tertiary bg-transparent flex items-center px-6">
+          <p className="font-semibold text-tertiary">
+            $
+          </p>
+          <input
+            type="text"
+            value={selectedAmount}
+            onChange={(e) =>
+              setSelectedAmount(e.target.value)
+            }
+            className="outline-none text-tertiary bg-transparent font-semibold text-base"
+          />
+        </div>
+        <Button className="cursor-pointer text-[16px] text-tertiary font-bold hover:bg-black hover:text-white rounded-4xl h-14 w-40 bg-[#FEC415]">
+          Donate
+        </Button>
+      </div>
+    </>
+  );
+}
