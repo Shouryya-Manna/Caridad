@@ -34,7 +34,7 @@ export default function Cause() {
             </h2>
 
             {/* Shape */}
-            <div className="absolute bottom-[-110px] left-15 z-50 h-70 w-70 rounded-full bg-transparent text-white flex items-center justify-center p-5">
+            <div className="absolute bottom-[-110px] left-15 h-70 w-70 rounded-full bg-transparent text-white flex items-center justify-center p-5">
               <Image
                 src="/Landing-Page/shape.svg"
                 alt=""
@@ -44,7 +44,7 @@ export default function Cause() {
             </div>
 
             {/* Circle */}
-            <div className="absolute bottom-[-70px] right-25 z-50 h-64 w-64 rounded-full bg-tertiary text-white flex items-center justify-center p-5">
+            <div className="absolute bottom-[-70px] right-25 h-64 w-64 rounded-full bg-tertiary text-white flex items-center justify-center p-5">
               <div className="flex items-center gap-2">
                 <div className="flex flex-col">
                   <span className="text-7xl font-bold leading-14">

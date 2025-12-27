@@ -8,8 +8,9 @@ export default function Check() {
   const [open, setOpen] = useState(false);
 
   return (
-    <section className="my-20 mx-7">
+    <section className="my-20 mx-7 relative">
       <div className="mx-auto flex max-w-[1239px] items-center justify-center gap-12 relative">
+        {/* Text Section */}
         <div className="flex-1 gap-14">
           <h2 className="absolute top-20 mx-0.5 z-20 text-[70px] font-extrabold leading-none text-tertiary">
             <span className="block">
@@ -72,6 +73,15 @@ export default function Check() {
             className="object-cover"
           />
         </div>
+      </div>
+
+      <div className="absolute top-[-120] right-105 z-50 h-70 w-70 rounded-full bg-transparent text-white flex items-center justify-center p-5">
+        <Image
+          src="/Landing-Page/shape.svg"
+          alt=""
+          fill
+          className="object-contain"
+        />
       </div>
 
       {/* VIDEO */}
