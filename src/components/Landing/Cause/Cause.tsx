@@ -33,6 +33,16 @@ export default function Cause() {
               </span>
             </h2>
 
+            {/* Shape */}
+            <div className="absolute bottom-[-110px] left-15 z-50 h-70 w-70 rounded-full bg-transparent text-white flex items-center justify-center p-5">
+              <Image
+                src="/Landing-Page/shape.svg"
+                alt=""
+                fill
+                className="object-contain"
+              />
+            </div>
+
             {/* Circle */}
             <div className="absolute bottom-[-70px] right-25 z-50 h-64 w-64 rounded-full bg-tertiary text-white flex items-center justify-center p-5">
               <div className="flex items-center gap-2">

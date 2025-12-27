@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { HeaderData } from "@/data/Header.data";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import SheetStyle from "../Landing/Header/Components/SheetStyle";
+import SheetStyle from "../../Landing/Header/Components/SheetStyle";
 
 export default function DynamicHeader() {
   const [hidden, setHidden] = useState(false);

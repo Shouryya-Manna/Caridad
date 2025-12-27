@@ -6,7 +6,7 @@ import Sponsor from "@/components/AboutUs/Sponsor/Sponsor";
 import Sponsor2 from "@/components/AboutUs/Sponsor2/Sponsor2";
 import SuccessStories from "@/components/AboutUs/SuccessStories/SuccessStories";
 import Team from "@/components/AboutUs/Team/Team";
-import DynamicHeader from "@/components/Global/DynamicHeader";
+import DynamicHeader from "@/components/Global/Header/DynamicHeader";
 import Header from "@/components/Landing/Header/Header";
 import ScrollToTop from "@/components/Landing/Scroller/ScrollUp";
 
