@@ -4,6 +4,7 @@ import Image from "next/image";
 export default function Donation() {
   return (
     <section className="mx-auto max-w-[1239px] px-1 py-24 mt-5">
+      {/* Text Container */}
       <div className="mb-16 text-center">
         <p className="mb-3 text-[20px] font-[401] tracking-normal uppercase">
           Get Involved
@@ -15,7 +16,6 @@ export default function Donation() {
 
       {/* Content */}
       <div className="grid grid-cols-1 overflow-hidden md:grid-cols-2 gap-7.5">
-        {/* Image */}
         <div className="relative h-[650px]">
           <Image
             src="/Landing-Page/IMG10.jpg"
@@ -25,7 +25,7 @@ export default function Donation() {
           />
         </div>
 
-        {/* Actions Container */}
+        {/* Actions */}
         <div className="flex flex-col justify-center bg-[#FEC415] px-12 py-6">
           {[
             "Donate",
@@ -37,15 +37,15 @@ export default function Donation() {
               className="group w-full pb-4"
             >
               <div className="flex cursor-pointer items-center justify-between py-10">
-                <h3 className="flex items-center gap-6 text-[50px] font-extrabold text-black relative">
+                <h3 className="flex items-center gap-6 text-[50px] font-extrabold text-tertiary relative">
                   {item}
                   <Image
-                    src="/Arrow.svg"
+                    src="/Landing-Page/Arrow.svg"
                     alt=""
                     fill
-                    className="w-10 h-8 text-black"
+                    className="ml-50 object-contain opacity-60"
                   />
-                  <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-black transition-all duration-500 group-hover:w-full"></span>
+                  <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-tertiary transition-all duration-500 group-hover:w-full"></span>
                 </h3>
               </div>
 
