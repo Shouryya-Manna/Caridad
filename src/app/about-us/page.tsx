@@ -8,7 +8,7 @@ import SuccessStories from "@/components/AboutUs/SuccessStories/SuccessStories";
 import Team from "@/components/AboutUs/Team/Team";
 import DynamicHeader from "@/components/Global/Header/DynamicHeader";
 import Header from "@/components/Landing/Header/Header";
-import ScrollToTop from "@/components/Landing/Scroller/ScrollUp";
+import ScrollToTop from "@/components/Global/ScrollUp";
 
 export default function page() {
   return (
