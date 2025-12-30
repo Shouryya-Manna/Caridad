@@ -18,7 +18,14 @@ export default function Team() {
           )}
         >
           <Card card={card}>
-            <Card.Image />
+            <div
+              className={cn(
+                "relative h-[330px] w-[280px]"
+              )}
+            >
+              <Card.Image />
+            </div>
+
             <Card.Title />
             <div className="flex items-center gap-3.5 text-base text-tertiary my-3.5">
               <Smile className="h-5 w-5" />

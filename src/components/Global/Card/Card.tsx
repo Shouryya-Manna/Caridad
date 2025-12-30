@@ -30,8 +30,6 @@ type CardType = {
   smile?: string;
   designation?: string;
   paragraph?: string;
-  donation?: React.FC;
-  button?: React.FC;
 };
 
 export default function Card({
@@ -49,18 +47,12 @@ export default function Card({
 Card.Image = function CardImage() {
   const { card } = useCardContext();
   return (
-    <div
-      className={cn(
-        "relative h-[330px] w-[280px]"
-      )}
-    >
-      <Image
-        src={card.image}
-        alt=""
-        fill
-        className="object-cover object-top"
-      />
-    </div>
+    <Image
+      src={card.image}
+      alt=""
+      fill
+      className="object-cover object-top"
+    />
   );
 };
 
@@ -68,7 +60,7 @@ Card.Image = function CardImage() {
 Card.Title = function CardTitle() {
   const { card } = useCardContext();
   return (
-    <h3 className="mt-6 text-2xl font-bold">
+    <h3 className="mt-6 text-2xl font-bold text-tertiary">
       {card.title}
     </h3>
   );
