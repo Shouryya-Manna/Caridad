@@ -1,8 +1,10 @@
 import SponsorAmount from "../Global/SponsorAmount";
+import Header from "../Landing/Header/Header";
 
 export default function Work() {
   return (
     <section className="w-full bg-[#F8F9F3]">
+      <Header className="bg-transparent" />
       <div className="max-w-8xl w-full mx-auto px-7.5 py-32">
         <h2 className="mb-2 text-tertiary text-xl font-medium text-center">
           01

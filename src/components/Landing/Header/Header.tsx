@@ -4,8 +4,13 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import SheetStyle from "./Components/SheetStyle";
 import Navigation from "./Components/Navigation";
+import { cn } from "@/lib/utils";
 
-export default function Header() {
+type HeaderProps = { className?: string };
+
+export default function Header({
+  className,
+}: HeaderProps) {
   const [hidden, setHidden] = useState(false);
   const [lastScroll, setLastScroll] = useState(0);
   useEffect(() => {
@@ -34,7 +39,8 @@ export default function Header() {
 
   return (
     <section
-      className={`
+      className={cn(
+        `
     sticky top-0 z-50
     transition-transform duration-300 ease-in-out
     ${
@@ -43,7 +49,9 @@ export default function Header() {
         : "translate-y-0"
     }
     bg-primary py-1
-  `}
+  `,
+        className
+      )}
     >
       <div className="max-w-[1239px] mx-auto grid grid-cols-[1fr_2fr_1fr] h-20 px-1">
         {/* Logo */}

@@ -1,10 +1,7 @@
-"use client";
 import { HeaderData } from "@/data/Header.data";
 import Link from "next/link";
-import { useState } from "react";
 
 export default function Navigation() {
-  const [isActive, setIsActive] = useState("");
   return (
     <div className="w-full flex justify-between items-center px-10 gap-14.5">
       {HeaderData.map((item, index) => (

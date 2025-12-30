@@ -10,7 +10,6 @@ import Header from "@/components/Landing/Header/Header";
 export default function page() {
   return (
     <div>
-      <Header />
       <Work />
       <SponsorChild />
       <Gift />
