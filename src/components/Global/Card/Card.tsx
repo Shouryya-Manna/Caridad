@@ -76,11 +76,19 @@ Card.Designation = function CardDesignation() {
   );
 };
 
+type ParagraphProps = { className?: string };
 // Paragraph
-Card.Paragraph = function CardParagraph() {
+Card.Paragraph = function CardParagraph({
+  className,
+}: ParagraphProps) {
   const { card } = useCardContext();
   return (
-    <p className="text-base max-w-[260px] leading-relaxed">
+    <p
+      className={cn(
+        "text-base max-w-[260px] leading-relaxed",
+        className
+      )}
+    >
       {card.paragraph}
     </p>
   );
