@@ -34,14 +34,14 @@ export default function OurCauses() {
           <Card card={card}>
             <div
               className={cn(
-                "relative max-h-[380px] h-full max-w-[290px] w-full"
+                "relative max-h-[380px] h-full max-w-[300px] w-full"
               )}
             >
               <Card.Image />
             </div>
 
             <Card.Title />
-            <Card.Paragraph className="max-w-[290px] my-5" />
+            <Card.Paragraph className="max-w-[310px] my-5 leading-loose" />
             <button className="text-base text-tertiary font-bold cursor-pointer hover:bg-black hover:text-white transition-colors duration-300 rounded-4xl h-16.5 w-45 bg-[#FEC415]">
               Sponsor
             </button>
