@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 
-import Sponsor2 from "../Sponsor2/Sponsor2";
+import Sponsor2 from "../Sponsor2";
 import SponsorAmount from "@/components/Global/SponsorAmount";
 import UnderlinedText from "@/components/Global/UnderlinedText";
 

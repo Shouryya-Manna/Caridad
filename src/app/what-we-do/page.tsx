@@ -1,5 +1,5 @@
-import AFooter from "@/components/AboutUs/Footer/AFooter";
-import Sponsor2 from "@/components/AboutUs/Sponsor2/Sponsor2";
+import AFooter from "@/components/AboutUs/AFooter";
+import Sponsor2 from "@/components/AboutUs/Sponsor2";
 import Header from "@/components/Landing/Header/Header";
 import Change from "@/components/WhatWeDo/Change";
 import Precident from "@/components/WhatWeDo/Precident";

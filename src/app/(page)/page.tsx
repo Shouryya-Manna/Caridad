@@ -1,16 +1,16 @@
-import Cause from "@/components/Landing/Cause/Cause";
-import Check from "@/components/Landing/Check/Check";
-import Donation from "@/components/Landing/Donation/Donation";
-import Events from "@/components/Landing/Events/Events";
-import Footer from "@/components/Landing/Footer/Footer";
+import Cause from "@/components/Landing/Cause";
+import Check from "@/components/Landing/Check";
+import Donation from "@/components/Landing/Donation";
+import Events from "@/components/Landing/Events";
+import Footer from "@/components/Landing/Footer";
 import Header from "@/components/Landing/Header/Header";
-import Help from "@/components/Landing/Help/Help";
-import Impact from "@/components/Landing/Impact/Impact";
-import LatestNews from "@/components/Landing/LatestNews/LatestNews";
-import Mission from "@/components/Landing/Mission/Mission";
-import Percentage from "@/components/Landing/Percentage/Percentage";
+import Help from "@/components/Landing/Help";
+import Impact from "@/components/Landing/Impact";
+import LatestNews from "@/components/Landing/LatestNews";
+import Mission from "@/components/Landing/Mission";
+import Percentage from "@/components/Landing/Percentage";
 import ScrollToTop from "@/components/Global/ScrollUp";
-import Stories from "@/components/Landing/Stories/Stories";
+import Stories from "@/components/Landing/Stories";
 
 export default function LandingPage() {
   return (

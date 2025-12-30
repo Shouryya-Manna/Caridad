@@ -1,4 +1,4 @@
-import AFooter from "@/components/AboutUs/Footer/AFooter";
+import AFooter from "@/components/AboutUs/AFooter";
 import GetInvolved from "@/components/GetInvolved/GetInvolved";
 import Gift from "@/components/GetInvolved/Gift";
 import GStories from "@/components/GetInvolved/Gstories/GStories";
