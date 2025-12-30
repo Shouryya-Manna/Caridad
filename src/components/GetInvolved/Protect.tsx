@@ -1,85 +1,39 @@
-import Image from "next/image";
+"use client";
+import { OurCausesData } from "@/data/OurCauses.data";
+import Card from "../Global/Card/Card";
+import { cn } from "@/lib/utils";
+import RaisedAmount from "../Global/RaisedAmount";
+import { ProtectDataFull } from "@/data/Protect.data";
 
 export default function Protect() {
   return (
-    <section className="max-w-8xl mx-auto w-full grid grid-cols-3 px-7.5 py-30 gap-x-10">
-      <div className="flex flex-col items-start justify-center">
-        <div className="relative h-[380px] w-[290px]">
-          <Image
-            src="/About-Us/Ab9.webp"
-            alt=""
-            fill
-            className="object-cover object-center"
-          />
+    <section className="max-w-8xl mx-auto w-full flex items-center justify-around px-7.5 py-30 gap-x-10">
+      {ProtectDataFull.map((card, index) => (
+        <div
+          key={index}
+          className={cn(
+            "flex flex-col items-start",
+            index === 1 && "mt-40"
+          )}
+        >
+          <Card card={card}>
+            <div
+              className={cn(
+                "relative h-[380px] w-[310px]"
+              )}
+            >
+              <Card.Image />
+            </div>
+
+            <Card.Title />
+            <Card.Paragraph className="max-w-[310px] my-5 leading-loose" />
+            <RaisedAmount />
+            <button className="text-base text-tertiary font-bold cursor-pointer hover:bg-black hover:text-white transition-colors duration-300 rounded-4xl h-16.5 w-45 bg-[#FEC415]">
+              Sponsor
+            </button>
+          </Card>
         </div>
-
-        <h3 className="my-5 text-2xl font-bold">
-          Protecting Children
-        </h3>
-
-        <p className="text-base my-2.5 max-w-[260px] leading-relaxed">
-          You believe, as we do, that every child
-          deserves a future. Every last child.
-        </p>
-        <div className="flex justify-between">
-          <span className="text-tertiary text-[14px]">
-            Raised: $80,930
-          </span>
-          <span className="text-tertiary text-[14px]">
-            Goal: $85,000
-          </span>
-        </div>
-      </div>
-
-      <div className="flex flex-col items-start justify-center">
-        <div className="relative h-[380px] w-[290px]">
-          <Image
-            src="/About-Us/Ab9.webp"
-            alt=""
-            fill
-            className="object-cover object-center"
-          />
-        </div>
-
-        <h3 className="my-5 text-2xl font-bold">
-          Protecting Children
-        </h3>
-
-        <p className="text-base my-2.5 max-w-[260px] leading-relaxed">
-          You believe, as we do, that every child
-          deserves a future. Every last child.
-        </p>
-        <div className="flex justify-between">
-          <span className="text-tertiary text-[14px]">
-            Raised: $80,930
-          </span>
-          <span className="text-tertiary text-[14px]">
-            Goal: $85,000
-          </span>
-        </div>
-      </div>
-
-      <div className="flex flex-col items-start">
-        <div className="relative h-[380px] w-[290px]">
-          <Image
-            src="/About-Us/Ab10.webp"
-            alt=""
-            fill
-            className="object-cover object-top"
-          />
-        </div>
-
-        <h3 className="mt-6 text-2xl font-bold">
-          Empower Young People
-        </h3>
-
-        <p className="text-base mt-4 max-w-lg leading-relaxed">
-          Is about the power of a generation in
-          movement, it is about a strong voice
-          being heard about hope and care; side by
-          side with youth!
-        </p>
-      </div>
+      ))}
     </section>
   );
 }
