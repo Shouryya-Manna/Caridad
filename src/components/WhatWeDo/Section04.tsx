@@ -1,4 +1,5 @@
 import Image from "next/image";
+import UnderlinedText from "../Global/UnderlinedText";
 
 export default function Section04() {
   return (
@@ -24,9 +25,10 @@ export default function Section04() {
             ; many are orphaned, living in extreme
             poverty or dealing with other
             difficult family circumstances.
-            <button className=" mt-12 cursor-pointer font-bold text-tertiary text-[16px] underline underline-offset-8 decoration-yellow-300">
-              View all children
-            </button>
+            <UnderlinedText
+              text="View all children"
+              className="my-8 mx-0"
+            />
           </p>
         </div>
         <div className="flex flex-col justify-center lg:mt-100 px-10">

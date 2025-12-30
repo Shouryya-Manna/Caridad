@@ -1,4 +1,5 @@
 import Image from "next/image";
+import UnderlinedText from "../Global/UnderlinedText";
 
 export default function Change() {
   return (
@@ -21,9 +22,10 @@ export default function Change() {
       </div>
 
       <div className="mt-30 mb-20 max-w-5xl px-7.5 flex flex-col justify-start leading-[1.7]">
-        <button className="my-8 font-bold text-tertiary text-[16px] cursor-pointer underline underline-offset-9 text-left decoration-yellow-200">
-          View children success stories
-        </button>
+        <UnderlinedText
+          text="View children success stories"
+          className="my-8"
+        />
       </div>
     </section>
   );

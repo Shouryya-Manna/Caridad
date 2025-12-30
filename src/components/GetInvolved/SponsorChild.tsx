@@ -1,5 +1,6 @@
 import { Smile } from "lucide-react";
 import Image from "next/image";
+import UnderlinedText from "../Global/UnderlinedText";
 
 export default function SponsorChild() {
   return (
@@ -77,9 +78,10 @@ export default function SponsorChild() {
           Meet some of our amazing children who
           are waiting for sponsorship.
         </p>
-        <button className="font-bold text-tertiary text-[16px] cursor-pointer underline underline-offset-9 text-left decoration-yellow-200">
-          View all children
-        </button>
+        <UnderlinedText
+          text="View all children"
+          className="my-8 mx-0"
+        />
       </div>
     </section>
   );
