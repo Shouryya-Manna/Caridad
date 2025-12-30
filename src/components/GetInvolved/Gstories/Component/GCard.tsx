@@ -8,30 +8,26 @@ import { Smile } from "lucide-react";
 
 export default function GCard() {
   return (
-    <section className="max-w-8xl mx-auto w-full grid grid-cols-3 px-7.5 mt-30 py-30 gap-x-20">
+    <section className="flex max-w-3xl w-full mx-auto">
       {GStoriesData.map((card, index) => (
         <div
           key={index}
-          className={cn(
-            "flex flex-col items-start",
-            index === 1 && "justify-center"
-          )}
+          className="flex flex-col items-start"
         >
           <Card card={card}>
-            <div
-              className={cn(
-                "relative h-[330px] w-[280px]"
-              )}
-            >
+            <div className="relative h-[380px] w-[280px]">
               <Card.Image />
             </div>
-
             <Card.Title />
             <div className="flex items-center gap-3.5 text-base text-tertiary my-3.5">
               <Smile className="h-5 w-5" />
               <Card.Designation />
             </div>
-            <Card.Paragraph />
+            <Card.Paragraph className="my-1 max-w-[280px] leading-loose" />
+
+            <button className="mt-5 text-base text-tertiary font-bold cursor-pointer hover:bg-black hover:text-white transition-colors duration-300 rounded-4xl h-16.5 w-45 bg-[#FEC415]">
+              Sponsor
+            </button>
           </Card>
         </div>
       ))}
