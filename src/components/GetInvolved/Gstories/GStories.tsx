@@ -1,7 +1,9 @@
+import GCard from "./Component/GCard";
+
 export default function GStories() {
   return (
     <section className="w-full bg-[#F8F9F3]">
-      <div className="max-w-3xl w-full mx-auto px-7.5 pt-30 pb-60 flex flex-col items-center">
+      <div className="max-w-3xl w-full mx-auto px-7.5 pt-30 flex flex-col items-center">
         <h2 className="mb-2 text-tertiary text-xl font-medium text-center uppercase">
           Stories
         </h2>
@@ -15,6 +17,7 @@ export default function GStories() {
           View all stories
         </button>
       </div>
+      <GCard />
     </section>
   );
 }
