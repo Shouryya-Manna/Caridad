@@ -20,7 +20,7 @@ export default function Team() {
           <Card card={card}>
             <div
               className={cn(
-                "relative h-[330px] w-[280px]"
+                "relative max-h-[330px] h-full max-w-[280px] w-full"
               )}
             >
               <Card.Image />
