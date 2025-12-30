@@ -1,9 +1,7 @@
 "use client";
 
 import Card from "@/components/Global/Card/Card";
-import UnderlinedText from "@/components/Global/UnderlinedText";
 import { GStoriesData } from "@/data/GStories.data";
-import { cn } from "@/lib/utils";
 import { Smile } from "lucide-react";
 
 export default function GCard() {
