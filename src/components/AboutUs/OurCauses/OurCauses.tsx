@@ -1,6 +1,7 @@
 "use client";
 
 import Card from "@/components/Global/Card/Card";
+import RaisedAmount from "@/components/Global/RaisedAmount";
 import UnderlinedText from "@/components/Global/UnderlinedText";
 import { OurCausesData } from "@/data/OurCauses.data";
 import { cn } from "@/lib/utils";
@@ -34,7 +35,7 @@ export default function OurCauses() {
           <Card card={card}>
             <div
               className={cn(
-                "relative max-h-[380px] h-full max-w-[300px] w-full"
+                "relative max-h-[380px] h-full max-w-[310px] w-full"
               )}
             >
               <Card.Image />
@@ -42,6 +43,7 @@ export default function OurCauses() {
 
             <Card.Title />
             <Card.Paragraph className="max-w-[310px] my-5 leading-loose" />
+            <RaisedAmount />
             <button className="text-base text-tertiary font-bold cursor-pointer hover:bg-black hover:text-white transition-colors duration-300 rounded-4xl h-16.5 w-45 bg-[#FEC415]">
               Sponsor
             </button>
