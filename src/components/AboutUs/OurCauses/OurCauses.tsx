@@ -1,5 +1,9 @@
+"use client";
+
+import Card from "@/components/Global/Card/Card";
 import UnderlinedText from "@/components/Global/UnderlinedText";
-import Image from "next/image";
+import { OurCausesData } from "@/data/OurCauses.data";
+import { cn } from "@/lib/utils";
 
 export default function OurCauses() {
   return (
@@ -19,55 +23,31 @@ export default function OurCauses() {
         />
       </div>
 
-      <div className="flex flex-col items-start justify-center">
-        <div className="relative h-[380px] w-[290px]">
-          <Image
-            src="/About-Us/Ab9.webp"
-            alt=""
-            fill
-            className="object-cover object-center"
-          />
+      {OurCausesData.map((card, index) => (
+        <div
+          key={index}
+          className={cn(
+            "flex flex-col items-start",
+            index === 0 && "justify-center"
+          )}
+        >
+          <Card card={card}>
+            <div
+              className={cn(
+                "relative max-h-[380px] h-full max-w-[290px] w-full"
+              )}
+            >
+              <Card.Image />
+            </div>
+
+            <Card.Title />
+            <Card.Paragraph className="max-w-[290px] my-5" />
+            <button className="text-base text-tertiary font-bold cursor-pointer hover:bg-black hover:text-white transition-colors duration-300 rounded-4xl h-16.5 w-45 bg-[#FEC415]">
+              Sponsor
+            </button>
+          </Card>
         </div>
-
-        <h3 className="my-5 text-2xl font-bold">
-          Protecting Children
-        </h3>
-
-        <p className="text-base my-2.5 max-w-[260px] leading-relaxed">
-          You believe, as we do, that every child
-          deserves a future. Every last child.
-        </p>
-        <div className="flex justify-between">
-          <span className="text-tertiary text-[14px]">
-            Raised: $80,930
-          </span>
-          <span className="text-tertiary text-[14px]">
-            Goal: $85,000
-          </span>
-        </div>
-      </div>
-
-      <div className="flex flex-col items-start">
-        <div className="relative h-[380px] w-[290px]">
-          <Image
-            src="/About-Us/Ab10.webp"
-            alt=""
-            fill
-            className="object-cover object-top"
-          />
-        </div>
-
-        <h3 className="mt-6 text-2xl font-bold">
-          Empower Young People
-        </h3>
-
-        <p className="text-base mt-4 max-w-lg leading-relaxed">
-          Is about the power of a generation in
-          movement, it is about a strong voice
-          being heard about hope and care; side by
-          side with youth!
-        </p>
-      </div>
+      ))}
     </section>
   );
 }

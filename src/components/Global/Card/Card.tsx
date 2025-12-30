@@ -27,7 +27,6 @@ function useCardContext() {
 type CardType = {
   image: string;
   title: string;
-  smile?: string;
   designation?: string;
   paragraph?: string;
 };
