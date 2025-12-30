@@ -1,3 +1,4 @@
+import UnderlinedText from "@/components/Global/UnderlinedText";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
@@ -56,9 +57,10 @@ export default function Team() {
           Meet our leadership team
         </h2>
 
-        <button className="my-8 font-bold text-tertiary text-[16px] cursor-pointer underline underline-offset-9 text-left decoration-yellow-200">
-          Get Involved
-        </button>
+        <UnderlinedText
+          text="Get Involved"
+          className="my-8 mx-0"
+        />
       </div>
     </section>
   );

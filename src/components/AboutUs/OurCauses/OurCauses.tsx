@@ -1,3 +1,4 @@
+import UnderlinedText from "@/components/Global/UnderlinedText";
 import Image from "next/image";
 
 export default function OurCauses() {
@@ -12,9 +13,10 @@ export default function OurCauses() {
           year
         </h2>
 
-        <button className="my-8 font-bold text-tertiary text-[16px] cursor-pointer underline underline-offset-9 text-left decoration-yellow-200">
-          View all causes{" "}
-        </button>
+        <UnderlinedText
+          text="View all children"
+          className="my-8 mx-0"
+        />
       </div>
 
       <div className="flex flex-col items-start justify-center">

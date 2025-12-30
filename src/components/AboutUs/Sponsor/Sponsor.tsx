@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 
 import Sponsor2 from "../Sponsor2/Sponsor2";
 import SponsorAmount from "@/components/Global/SponsorAmount";
+import UnderlinedText from "@/components/Global/UnderlinedText";
 
 export default function Sponsor() {
   return (
@@ -28,9 +29,10 @@ export default function Sponsor() {
       <h2 className="text-[50px] font-bold text-tertiary">
         Be the change for one child:
       </h2>
-      <button className="mt-8 font-bold text-tertiary text-[16px] cursor-pointer underline underline-offset-9 text-left decoration-yellow-200">
-        View all children
-      </button>
+      <UnderlinedText
+        text="View all children"
+        className="my-8 mx-0"
+      />
     </section>
   );
 }

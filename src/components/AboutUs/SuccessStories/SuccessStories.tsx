@@ -1,3 +1,4 @@
+import UnderlinedText from "@/components/Global/UnderlinedText";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
@@ -42,9 +43,12 @@ export default function SuccessStories() {
           difficult family circumstances.
         </p>
 
-        <button className="my-8 font-bold text-tertiary text-[16px] cursor-pointer underline underline-offset-9 text-left decoration-yellow-200">
-          View children success stories
-        </button>
+        {/* <button className=" font-bold text-tertiary text-[16px] cursor-pointer underline underline-offset-9 text-left decoration-yellow-200">
+        </button> */}
+        <UnderlinedText
+          text="View children success stories"
+          className="my-8 mx-0"
+        />
       </div>
     </section>
   );

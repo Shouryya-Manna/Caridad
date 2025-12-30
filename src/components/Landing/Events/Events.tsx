@@ -1,3 +1,4 @@
+import UnderlinedText from "@/components/Global/UnderlinedText";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { EventData } from "@/data/Events.data";
@@ -129,9 +130,7 @@ export default function Events() {
 
         {/* Footer link */}
         <div className="mt-10 text-center">
-          <Button className="text-[16px] underline transition-colors duration-300 underline-offset-9 decoration-yellow-200  font-semibold text-tertiary cursor-pointer">
-            View all events
-          </Button>
+          <UnderlinedText text="View all events" />
         </div>
       </div>
     </section>

@@ -1,3 +1,4 @@
+import UnderlinedText from "@/components/Global/UnderlinedText";
 import Image from "next/image";
 
 export default function LatestNews() {
@@ -31,9 +32,7 @@ export default function LatestNews() {
                 Lupo—Raised $12,000 for Research
               </h3>
 
-              <button className="text-[16px] underline  text-tertiary underline-offset-9 decoration-yellow-200 cursor-pointer font-bold text-left mx-4">
-                Read more
-              </button>
+              <UnderlinedText text="Read more" />
             </div>
           </div>
 
@@ -43,15 +42,11 @@ export default function LatestNews() {
               <p className="text-[16px] mx-4 mt-1 text-tertiary mb-2">
                 20 Jun 2020
               </p>
-
               <h3 className="text-[24px] leading-snug font-bold m-4 transition-colors duration-300  hover:text-yellow-400 cursor-pointer">
                 COVID-19 and Breast Cancer Care:
                 What Patients Need to Know
               </h3>
-
-              <button className="text-[16px] underline transition-colors duration-300 text-tertiary underline-offset-9 decoration-yellow-200 cursor-pointer font-bold text-left mx-4">
-                Read more
-              </button>
+              <UnderlinedText text="Read more" />
             </div>
             {/* Image */}
             <div className="relative aspect-square overflow-hidden group cursor-pointer">
@@ -88,9 +83,7 @@ export default function LatestNews() {
                 No Family History Read more
               </h3>
 
-              <button className="text-[16px] underline  text-tertiary underline-offset-9 decoration-yellow-200 cursor-pointer font-bold text-left mx-4">
-                Read more
-              </button>
+              <UnderlinedText text="Read more" />
             </div>
           </div>
 
@@ -103,13 +96,11 @@ export default function LatestNews() {
 
               <h3 className="text-[24px] leading-snug font-bold m-4 transition-colors duration-300 hover:text-yellow-400 cursor-pointer">
                 Treating Triple-Negative Breast
-                Cancer: Recent Progress and What’s
+                Cancer: Recent Progress and What's
                 to Come
               </h3>
 
-              <button className="text-[16px] underline  text-tertiary underline-offset-9 decoration-yellow-200 cursor-pointer font-bold text-left mx-4">
-                Read more
-              </button>
+              <UnderlinedText text="Read more" />
             </div>
             {/* Image */}
             <div className="relative aspect-square overflow-hidden group cursor-pointer">

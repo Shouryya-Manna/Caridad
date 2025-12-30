@@ -1,3 +1,4 @@
+import UnderlinedText from "@/components/Global/UnderlinedText";
 import Image from "next/image";
 
 export default function Mission() {
@@ -9,7 +10,6 @@ export default function Mission() {
           <p className="text-xl font-medium uppercase">
             Our Mission Is Simple
           </p>
-
           <div className="text-[120px] font-extrabold leading-[0.9] text-tertiary mt-8">
             <span className="block tracking-normal">
               Stop
@@ -19,10 +19,10 @@ export default function Mission() {
             <span className="block">breast</span>
             <span className="block">cancer</span>
           </div>
-
-          <button className="my-8 font-bold text-tertiary text-[16px] cursor-pointer underline underline-offset-9 decoration-yellow-200">
-            Learn more
-          </button>
+          <UnderlinedText
+            text="Learn more"
+            className="my-8"
+          />
         </div>
 
         {/* Image div */}
