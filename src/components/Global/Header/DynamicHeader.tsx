@@ -1,11 +1,17 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { HeaderData } from "@/data/Header.data";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import SheetStyle from "../../Landing/Header/Components/SheetStyle";
+import { cn } from "@/lib/utils";
+import Link from "next/link";
+import { HeaderData } from "@/data/Header.data";
 
-export default function DynamicHeader() {
+type DynamicHeaderProps = { className?: string };
+
+export default function DynamicHeader({
+  className,
+}: DynamicHeaderProps) {
   const [hidden, setHidden] = useState(false);
   const [lastScroll, setLastScroll] = useState(0);
   useEffect(() => {
@@ -34,7 +40,8 @@ export default function DynamicHeader() {
 
   return (
     <section
-      className={`
+      className={cn(
+        `
     sticky top-0 z-50
     transition-transform duration-300 ease-in-out
     ${
@@ -43,7 +50,9 @@ export default function DynamicHeader() {
         : "translate-y-0"
     }
     bg-transparent py-1
-  `}
+  `,
+        className
+      )}
     >
       <div className="max-w-[1239px] mx-auto grid grid-cols-[1fr_2fr_1fr] h-20 px-1">
         {/* Logo */}
@@ -70,12 +79,21 @@ export default function DynamicHeader() {
                        ? "underline underline-offset-4"
                        : "group-hover:underline underline-offset-4 ml-0"
                    }
-                  
+                             
                     ${index < 1 ? "pl-6.5" : ""}`}
               >
-                <a href="/about-us">
+                <Link
+                  href={
+                    item.menu === "Home"
+                      ? "/"
+                      : `/${item.menu
+                          .toLowerCase()
+                          .replace(/\s+/g, "-")}`
+                  }
+                  className="font-semibold"
+                >
                   {item.menu}
-                </a>
+                </Link>
               </div>
 
               {/* Dropdown */}
@@ -100,7 +118,6 @@ export default function DynamicHeader() {
             </div>
           ))}
         </div>
-
         {/* Buttons */}
         <div className="ml-auto flex gap-7 w-83 justify-end items-center mr-2">
           <Button

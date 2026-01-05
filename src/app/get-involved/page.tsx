@@ -5,7 +5,6 @@ import GStories from "@/components/GetInvolved/Gstories/GStories";
 import Protect from "@/components/GetInvolved/Protect";
 import SponsorChild from "@/components/GetInvolved/SponsorChild";
 import Work from "@/components/GetInvolved/Work";
-import Header from "@/components/Landing/Header/Header";
 
 export default function page() {
   return (

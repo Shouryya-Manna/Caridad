@@ -8,11 +8,12 @@ import Team from "@/components/AboutUs/Team";
 import DynamicHeader from "@/components/Global/Header/DynamicHeader";
 import ScrollToTop from "@/components/Global/ScrollUp";
 import Sponsor from "@/components/AboutUs/Sponsor";
+import AHeader from "@/components/AboutUs/AHeader";
 
 export default function page() {
   return (
     <div>
-      <DynamicHeader />
+      <AHeader />
       <Charity />
       <SuccessStories />
       <Outcome />
