@@ -37,13 +37,13 @@ export default function ScrollToTop() {
     <div
       onClick={scrollToTop}
       className={`
-        fixed bottom-2 right-3 z-60
+        fixed bottom-2 right-3 z-50
         p-2 bg-transparent
         transition-all duration-300 cursor-pointer
         ${
           isVisible
-            ? "opacity-100 translate-y-0"
-            : "hover:opacity-0 translate-y-10 pointer-events-none"
+            ? "opacity-100 translate-y-0 pointer-events-auto"
+            : "opacity-0 translate-y-10 pointer-events-none"
         }
 
       `}
