@@ -100,7 +100,7 @@ export default function DynamicHeader({
               <div
                 className="
                 absolute left-0 mt-2 z-50
-                bg-black w-fit text-white px-6 py-4
+                bg-white w-fit text-tertiary px-6 py-4
                 opacity-0 invisible group-hover:opacity-100 group-hover:visible
                 transition-all duration-200 whitespace-nowrap"
               >

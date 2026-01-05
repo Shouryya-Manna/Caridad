@@ -1,30 +1,29 @@
 import Image from "next/image";
-import React from "react";
 import DynamicHeader from "../Global/Header/DynamicHeader";
-import Header from "../Landing/Header/Header";
 
 export default function AHeader() {
   return (
-    <section className="max-w-8xl mx-auto w-full">
-      <div>
-        <DynamicHeader className="bg-transparent py-0" />
-        <div className="relative h-[400px] w-full py-40">
-          <Image
-            src="/About-Us/AboutHeader.jpg"
-            alt=""
-            fill
-            className="object-cover"
-          />
+    <section className="relative w-full h-[400px]">
+      {/* HEADER ON TOP */}
+      <DynamicHeader className="absolute top-0 left-0 w-full z-50 bg-transparent" />
 
-          <div className="absolute z-10 px-7.5 top-190 text-[70px] font-bold leading-none text-tertiary space-y-3">
-            <span className="block bg-[#F8F9F3] w-fit px-5">
-              Be the change
-            </span>
-            <span className="block bg-[#F8F9F3] w-fit px-5">
-              for one child:
-            </span>
-          </div>
-        </div>
+      {/* HERO IMAGE */}
+      <Image
+        src="/About-Us/AboutHeader.jpg"
+        alt=""
+        fill
+        priority
+        className="object-cover z-0"
+      />
+
+      {/* HERO TEXT */}
+      <div className="absolute z-10 px-7.5 top-[290px] text-[70px] font-bold leading-none text-tertiary space-y-3">
+        <span className="block bg-[#F8F9F3] w-fit px-5">
+          Be the change
+        </span>
+        <span className="block bg-[#F8F9F3] w-fit px-5">
+          for one child:
+        </span>
       </div>
     </section>
   );

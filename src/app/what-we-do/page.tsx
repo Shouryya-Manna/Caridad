@@ -1,6 +1,6 @@
 import AFooter from "@/components/AboutUs/AFooter";
+import AHeader from "@/components/AboutUs/AHeader";
 import Sponsor2 from "@/components/AboutUs/Sponsor2";
-import Header from "@/components/Landing/Header/Header";
 import Change from "@/components/WhatWeDo/Change";
 import Precident from "@/components/WhatWeDo/Precident";
 import Section01 from "@/components/WhatWeDo/Section01";
@@ -11,7 +11,7 @@ import Section04 from "@/components/WhatWeDo/Section04";
 export default function page() {
   return (
     <div>
-      <Header />
+      <AHeader />
       <Section01 />
       <Section02 />
       <Section03 />
