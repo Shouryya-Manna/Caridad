@@ -27,8 +27,8 @@ const ptSans = PT_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "FurrFolks - Protecting Animals, Changing Lives",
-  description: "Join FurrFolks in our mission to protect animals and create positive change in communities worldwide.",
+  title: "FurrFolks - Changing Lives",
+  description: "",
   icons: {
     icon: '/FurrFolks-favicon.jpg',
   },
