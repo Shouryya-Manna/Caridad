@@ -1,0 +1,21 @@
+import type { Config } from 'tailwindcss'
+
+const config: Config = {
+  content: [
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        'sans': ['var(--font-poppins)', 'sans-serif'],
+        'ubuntu-condensed': ['var(--font-ubuntu-condensed)', 'sans-serif'],
+        'product-sans': ['var(--font-product-sans)', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+}
+
+export default config
