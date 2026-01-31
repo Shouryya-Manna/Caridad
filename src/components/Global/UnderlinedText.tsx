@@ -11,15 +11,13 @@ export default function UnderlinedText({
   className,
 }: UnderlinedTextProps) {
   return (
-    <div>
-      <button
-        className={cn(
-          "text-base underline  text-tertiary underline-offset-9 decoration-yellow-200 cursor-pointer font-bold text-left mx-4",
-          className
-        )}
-      >
-        {text}
-      </button>
-    </div>
+    <span
+      className={cn(
+        "text-base underline  text-tertiary underline-offset-9 decoration-yellow-200 cursor-pointer font-pt-sans font-bold text-left mx-4 inline-block",
+        className
+      )}
+    >
+      {text}
+    </span>
   );
 }

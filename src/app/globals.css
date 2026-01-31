@@ -7,7 +7,7 @@
   --color-tertiary: oklch(22.76% 0.002 17.27);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-poppins);
+  --font-sans: var(--font-product-sans);
   --font-ubuntu-condensed: var(--font-ubuntu-condensed);
   --font-product-sans: var(--font-product-sans); 
   --color-sidebar-ring: var(--sidebar-ring);

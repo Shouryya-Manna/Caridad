@@ -12,14 +12,14 @@ export default function Check() {
       <div className="mx-auto flex max-w-[1239px] items-center justify-center gap-12 relative">
         {/* Text Section */}
         <div className="flex-1 gap-14">
-          <h2 className="absolute top-20 mx-0.5 z-20 text-[70px] font-extrabold leading-none text-tertiary">
+          <h2 className="absolute top-20 mx-0.5 z-20 text-[70px] font-ubuntu-condensed font-extrabold leading-none text-tertiary">
             <span className="block">
               Checked your
             </span>
             <span className="block">breasts</span>
             <span className="block">lately?</span>
           </h2>
-          <p className="text-[16px] leading-[1.4] text-tertiary mt-60 mx-0.5 border-b border-b-gray-600 py-9">
+          <p className="text-[16px] leading-[1.4] text-tertiary font-pt-sans mt-60 mx-0.5 border-b border-b-gray-600 py-9">
             We'll show you how. Checking your
             breasts is easy as TLC. 'Know your
             normal', so you can find any <br />
@@ -28,26 +28,26 @@ export default function Check() {
           </p>
           <div className="flex gap-15 pt-11 max-w-xl px-1 justify-start items-center">
             <div>
-              <p className="text-[16px] font-bold">
+              <p className="text-[16px] font-pt-sans font-bold">
                 01.
               </p>
-              <p className="text-[16px] font-bold">
+              <p className="text-[16px] font-pt-sans font-bold">
                 Touch
               </p>
             </div>
             <div>
-              <p className="text-[16px] font-bold">
+              <p className="text-[16px] font-pt-sans font-bold">
                 02.
               </p>
-              <p className="text-[16px] font-bold">
+              <p className="text-[16px] font-pt-sans font-bold">
                 Look
               </p>
             </div>
             <div>
-              <p className="text-[16px] font-bold">
+              <p className="text-[16px] font-pt-sans font-bold">
                 03.
               </p>
-              <p className="text-[16px] font-bold">
+              <p className="text-[16px] font-pt-sans font-bold">
                 Check
               </p>
             </div>

@@ -6,10 +6,10 @@ export default function Donation() {
     <section className="mx-auto max-w-[1239px] px-1 py-24 mt-5">
       {/* Text Container */}
       <div className="mb-16 text-center">
-        <p className="mb-3 text-[20px] font-[401] tracking-normal uppercase">
+        <p className="mb-3 text-[20px] font-pt-sans font-normal tracking-normal uppercase">
           Get Involved
         </p>
-        <h2 className="text-[50px] font-bold mb-12 mx-auto">
+        <h2 className="text-[50px] font-ubuntu-condensed font-bold mb-12 mx-auto">
           Want to Help
         </h2>
       </div>
@@ -37,7 +37,7 @@ export default function Donation() {
               className="group w-full pb-4"
             >
               <div className="flex cursor-pointer items-center justify-between py-10">
-                <h3 className="flex items-center gap-6 text-[50px] font-extrabold text-tertiary relative">
+                <h3 className="flex items-center gap-6 text-[50px] font-ubuntu-condensed font-extrabold text-tertiary relative">
                   {item}
                   <Image
                     src="/Landing-Page/Arrow.svg"

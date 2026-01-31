@@ -21,10 +21,10 @@ export default function Impact() {
     <section className="bg-primary pt-32 pb-15 overflow-hidden">
       {/* Heading */}
       <div className="mx-auto  text-center mb-16">
-        <p className="mb-5 text-[20px] font-[401] tracking-normal uppercase">
+        <p className="mb-5 text-[20px] font-pt-sans font-normal tracking-normal uppercase">
           IMPACT
         </p>
-        <h2 className="text-[50px] leading-15 text-tertiary font-bold mb-16 mx-auto max-w-5xl wrap-break-word">
+        <h2 className="text-[50px] leading-15 text-tertiary font-ubuntu-condensed font-bold mb-16 mx-auto max-w-5xl wrap-break-word">
           Helping women now through early
           detection, education, and support
         </h2>
@@ -68,7 +68,7 @@ export default function Impact() {
                           ]
                         }
                       >
-                        <p className="text-[24px] leading-[1.3] font-bold text-tertiary">
+                        <p className="text-[24px] leading-[1.3] font-pt-sans font-bold text-tertiary">
                           {item.data}
                         </p>
                       </div>

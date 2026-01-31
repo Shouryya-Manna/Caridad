@@ -6,10 +6,10 @@ export default function Stories() {
       <div className="max-w-[1239px] mx-auto ">
         {/* Header */}
         <div className="text-center mb-20">
-          <p className="mb-3 text-[20px] font-[401] tracking-normal uppercase">
+          <p className="mb-3 text-[20px] font-pt-sans font-normal tracking-normal uppercase">
             Stories
           </p>
-          <h2 className="text-[50px] text-tertiary font-bold mb-16 mx-auto">
+          <h2 className="text-[50px] text-tertiary font-ubuntu-condensed font-bold mb-16 mx-auto">
             Stories of Hope
           </h2>
         </div>
@@ -28,13 +28,13 @@ export default function Stories() {
             <div className="text-6xl font-serif leading-none mb-3">
               “
             </div>
-            <p className="text-[24px] text-tertiary font-bold leading-[1.3] mb-8">
+            <p className="text-[24px] text-tertiary font-pt-sans font-bold leading-[1.3] mb-8">
               "Being a survivor now, I realized I
               was not educated or aware about what
               breast cancer actually was and how
               it impacted and affected people."
             </p>
-            <div className="text-[16px] text-tertiary flex flex-col gap-2.5">
+            <div className="text-[16px] text-tertiary font-pt-sans flex flex-col gap-2.5">
               <p className="">Rena Hart</p>
               <p>
                 Breast Cancer Survivor & Caregiver

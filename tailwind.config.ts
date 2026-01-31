@@ -9,9 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['var(--font-poppins)', 'sans-serif'],
+        'sans': ['var(--font-product-sans)', 'sans-serif'],
         'ubuntu-condensed': ['var(--font-ubuntu-condensed)', 'sans-serif'],
-        'product-sans': ['var(--font-product-sans)', 'sans-serif'],
+        'pt-sans': ['var(--font-product-sans)', 'sans-serif'],
+        'poppins': ['var(--font-poppins)', 'sans-serif'],
       },
     },
   },

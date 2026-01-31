@@ -57,7 +57,7 @@ export default function Header({ className }: HeaderProps) {
           {HeaderData.map((item, index) => (
             <div key={index} className="relative group">
               <div
-                className={`cursor-pointer font-[501] text-nowrap text-[16px] tracking-[0.1]
+                className={`cursor-pointer font-pt-sans font-medium text-nowrap text-[16px] tracking-[0.1]
                           ${
                             index === 0
                               ? "underline underline-offset-4"
@@ -72,7 +72,7 @@ export default function Header({ className }: HeaderProps) {
                       ? "/"
                       : `/${item.menu.toLowerCase().replace(/\s+/g, "-")}`
                   }
-                  className="font-semibold"
+                  className="font-pt-sans font-semibold"
                 >
                   {item.menu}
                 </Link>
@@ -89,7 +89,7 @@ export default function Header({ className }: HeaderProps) {
                 {item.submenu.map((sub, index) => (
                   <div
                     key={index}
-                    className="py-2 hover:text-yellow-300 cursor-pointer"
+                    className="py-2 hover:text-yellow-300 cursor-pointer font-pt-sans"
                   >
                     {sub}
                   </div>
@@ -103,7 +103,7 @@ export default function Header({ className }: HeaderProps) {
         <div className="ml-auto flex gap-7 w-83 justify-end items-center mr-2">
           <SheetStyle />
           <Button
-            className="bg-transparent cursor-pointer text-[16px] font-[650] hover:bg-black hover:text-white rounded-4xl h-12.5 w-33 border border-black focus-visible:ring-0 focus-visible:ring-offset-0"
+            className="bg-transparent cursor-pointer text-[16px] font-pt-sans font-bold hover:bg-black hover:text-white rounded-4xl h-12.5 w-33 border border-black focus-visible:ring-0 focus-visible:ring-offset-0"
             variant="outline"
           >
             Donate

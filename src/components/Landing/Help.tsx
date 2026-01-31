@@ -14,10 +14,10 @@ export default function Help() {
       <div className="mx-auto flex flex-col max-w-[1239px] px-1 items-center justify-center gap-10 ">
         {/* Header */}
         <div className="text-center">
-          <p className="mb-5 text-[20px] font-medium text-tertiary">
+          <p className="mb-5 text-[20px] font-pt-sans font-medium text-tertiary">
             WHAT WE DO
           </p>
-          <h2 className="text-4xl md:text-5xl font-bold mb-18 mx-auto">
+          <h2 className="text-4xl md:text-5xl font-ubuntu-condensed font-bold mb-18 mx-auto">
             How we help
           </h2>
         </div>
@@ -33,7 +33,7 @@ export default function Help() {
               value={`item+${index}`}
               className="border-0"
             >
-              <AccordionTrigger className="group cursor-pointer flex items-center justify-between py-10 text-left text-[24px] font-bold tracking-tight hover:no-underline">
+              <AccordionTrigger className="group cursor-pointer flex items-center justify-between py-10 text-left text-[24px] font-ubuntu-condensed font-bold tracking-tight hover:no-underline">
                 <span className="text-tertiary">
                   {item.title}
                 </span>
@@ -68,7 +68,7 @@ export default function Help() {
                 </span>
               </AccordionTrigger>
 
-              <AccordionContent className="pb-1 text-base leading-loose duration-1000 ease-in-out text-tertiary">
+              <AccordionContent className="pb-1 text-base leading-loose duration-1000 ease-in-out text-tertiary font-pt-sans">
                 {item.description}
               </AccordionContent>
 

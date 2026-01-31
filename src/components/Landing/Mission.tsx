@@ -7,10 +7,10 @@ export default function Mission() {
       <div className="mx-auto flex max-w-[1239px] pr-1 pl-0.5 items-center justify-center gap-8">
         <div className="max-w-xl">
           {/* "Floating" looking text */}
-          <p className="text-xl font-medium uppercase">
+          <p className="text-xl font-pt-sans font-medium uppercase">
             Our Mission Is Simple
           </p>
-          <div className="text-[120px] font-extrabold leading-[0.9] text-tertiary mt-8">
+          <div className="text-[120px] font-ubuntu-condensed font-extrabold leading-[0.9] text-tertiary mt-8">
             <span className="block tracking-normal">
               Stop
             </span>

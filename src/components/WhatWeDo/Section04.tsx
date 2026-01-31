@@ -15,21 +15,23 @@ export default function Section04() {
             />
           </div>
 
-          <p className="max-w-[520px] text-base leading-relaxed text-tertiary">
-            The students supported by our programs
-            face major barriers to
-            <span className="font-bold">
-              {" "}
-              accessing education
-            </span>
-            ; many are orphaned, living in extreme
-            poverty or dealing with other
-            difficult family circumstances.
+          <div className="max-w-[520px] text-base leading-relaxed text-tertiary">
+            <p>
+              The students supported by our programs
+              face major barriers to
+              <span className="font-bold">
+                {" "}
+                accessing education
+              </span>
+              ; many are orphaned, living in extreme
+              poverty or dealing with other
+              difficult family circumstances.
+            </p>
             <UnderlinedText
               text="View all children"
               className="my-8 mx-0"
             />
-          </p>
+          </div>
         </div>
         <div className="flex flex-col justify-center lg:mt-100 px-10">
           <h2 className="mb-6 text-tertiary text-xl font-medium">

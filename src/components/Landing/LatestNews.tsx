@@ -5,7 +5,7 @@ export default function LatestNews() {
   return (
     <section className="w-full flex justify-center py-15">
       <div className="max-w-[1239px] mx-7 w-full">
-        <h2 className="text-[50px] font-bold mb-22 text-center text-tertiary">
+        <h2 className="text-[50px] font-ubuntu-condensed font-bold mb-22 text-center text-tertiary">
           Latest News
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
@@ -22,11 +22,11 @@ export default function LatestNews() {
 
             {/* Content */}
             <div className="p-5 flex flex-col min-h-[570px]">
-              <p className="text-[16px] mx-4 mt-1 text-tertiary mb-2">
+              <p className="text-[16px] mx-4 mt-1 text-tertiary font-pt-sans mb-2">
                 20 Jun 2020
               </p>
 
-              <h3 className="text-[24px] leading-snug font-bold m-4 transition-colors duration-300 hover:text-yellow-400 cursor-pointer">
+              <h3 className="text-[24px] leading-snug font-ubuntu-condensed font-bold m-4 transition-colors duration-300 hover:text-yellow-400 cursor-pointer">
                 How a First-Time Streamer—and a
                 surprise visit from Dr.
                 Lupo—Raised $12,000 for Research
@@ -39,10 +39,10 @@ export default function LatestNews() {
           <div>
             {/* Content */}
             <div className="p-5 flex flex-col min-h-[570px]">
-              <p className="text-[16px] mx-4 mt-1 text-tertiary mb-2">
+              <p className="text-[16px] mx-4 mt-1 text-tertiary font-pt-sans mb-2">
                 20 Jun 2020
               </p>
-              <h3 className="text-[24px] leading-snug font-bold m-4 transition-colors duration-300  hover:text-yellow-400 cursor-pointer">
+              <h3 className="text-[24px] leading-snug font-ubuntu-condensed font-bold m-4 transition-colors duration-300  hover:text-yellow-400 cursor-pointer">
                 COVID-19 and Breast Cancer Care:
                 What Patients Need to Know
               </h3>
@@ -72,11 +72,11 @@ export default function LatestNews() {
 
             {/* Content */}
             <div className="p-5 flex flex-col min-h-[570px]">
-              <p className="text-[16px] mx-4 mt-1 text-tertiary mb-2">
+              <p className="text-[16px] mx-4 mt-1 text-tertiary font-pt-sans mb-2">
                 20 Jun 2020
               </p>
 
-              <h3 className="text-[24px] leading-snug font-bold m-4 transition-colors duration-300 hover:text-yellow-400 cursor-pointer">
+              <h3 className="text-[24px] leading-snug font-ubuntu-condensed font-bold m-4 transition-colors duration-300 hover:text-yellow-400 cursor-pointer">
                 24 Jul 2020 Caridad-Supported
                 Study First to Determine z Risk
                 for Women With Gene Mutations, But
@@ -90,11 +90,11 @@ export default function LatestNews() {
           <div>
             {/* Content */}
             <div className="p-5 flex flex-col min-h-[570px]">
-              <p className="text-[16px] mx-4 mt-1 text-tertiary mb-2">
+              <p className="text-[16px] mx-4 mt-1 text-tertiary font-pt-sans mb-2">
                 20 Jun 2020
               </p>
 
-              <h3 className="text-[24px] leading-snug font-bold m-4 transition-colors duration-300 hover:text-yellow-400 cursor-pointer">
+              <h3 className="text-[24px] leading-snug font-ubuntu-condensed font-bold m-4 transition-colors duration-300 hover:text-yellow-400 cursor-pointer">
                 Treating Triple-Negative Breast
                 Cancer: Recent Progress and What's
                 to Come

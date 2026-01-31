@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins, Ubuntu_Condensed } from "next/font/google";
-import localFont from "next/font/local";
+import { Poppins, Ubuntu_Condensed, PT_Sans } from "next/font/google";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -19,21 +18,11 @@ const ubuntuCondensed = Ubuntu_Condensed({
   fallback: ["sans-serif"],
 });
 
-const productSans = localFont({
-  src: [
-    {
-      path: "./fonts/ProductSans-Regular.woff2",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "./fonts/ProductSans-Bold.woff2",
-      weight: "700",
-      style: "normal",
-    },
-  ],
-  variable: "--font-product-sans",
+const ptSans = PT_Sans({
+  subsets: ["latin"],
+  weight: ["400", "700"],
   display: "swap",
+  variable: "--font-pt-sans",
   fallback: ["sans-serif"],
 });
 
@@ -51,8 +40,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${poppins.variable} ${ubuntuCondensed.variable} ${productSans.variable}`}>
-      <body className={poppins.className}>{children}</body>
+    <html lang="en" className={`${poppins.variable} ${ubuntuCondensed.variable} ${ptSans.variable}`}>
+      <body className={ptSans.className}>{children}</body>
     </html>
   );
 }

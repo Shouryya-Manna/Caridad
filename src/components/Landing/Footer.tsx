@@ -12,7 +12,7 @@ export default function Footer() {
     <footer className="bg-primary pt-20 ">
       <div className="max-w-[1239px] px-1 mx-auto pb-14">
         <div className="text-center mb-9">
-          <h2 className="text-[50px] md:text-5xl font-bold text-gray-900 mb-4 leading-[1.3]">
+          <h2 className="text-[50px] md:text-5xl font-ubuntu-condensed font-bold text-gray-900 mb-4 leading-[1.3]">
             <span className="block">
               Help support
             </span>
@@ -20,7 +20,7 @@ export default function Footer() {
               women in need
             </span>
           </h2>
-          <button className="text-[16px] text-tertiary font-bold cursor-pointer hover:bg-black hover:text-white rounded-4xl h-16.5 w-45 bg-[#FEC415]">
+          <button className="text-[16px] text-tertiary font-pt-sans font-bold cursor-pointer hover:bg-black hover:text-white rounded-4xl h-16.5 w-45 bg-[#FEC415]">
             Donate
           </button>
         </div>
@@ -31,25 +31,25 @@ export default function Footer() {
         <nav className="flex flex-wrap justify-center gap-15 mb-8 text-sm md:text-base">
           <a
             href="#"
-            className="text-tertiary hover:text-[#FEC415] transition-colors duration-300 font-semibold text-[18px] mb-5"
+            className="text-tertiary hover:text-[#FEC415] transition-colors duration-300 font-pt-sans font-semibold text-[18px] mb-5"
           >
             What We Do
           </a>
           <a
             href="#"
-            className="text-tertiary hover:text-[#FEC415] duration-300 font-semibold  text-[18px] transition-colors"
+            className="text-tertiary hover:text-[#FEC415] duration-300 font-pt-sans font-semibold  text-[18px] transition-colors"
           >
             About Us
           </a>
           <a
             href="#"
-            className="text-tertiary hover:text-[#FEC415] transition-colors duration-300 font-semibold text-[18px]"
+            className="text-tertiary hover:text-[#FEC415] transition-colors duration-300 font-pt-sans font-semibold text-[18px]"
           >
             Get Involved
           </a>
           <a
             href="#"
-            className="text-tertiary hover:text-[#FEC415] duration-300 font-semibold text-[18px] transition-colors"
+            className="text-tertiary hover:text-[#FEC415] duration-300 font-pt-sans font-semibold text-[18px] transition-colors"
           >
             Membership & Giving
           </a>
@@ -86,26 +86,26 @@ export default function Footer() {
           <div className="flex flex-wrap justify-center md:justify-start gap-4">
             <a
               href="#"
-              className="hover:text-[#FEC415] transition-colors duration-300 font-[420]"
+              className="hover:text-[#FEC415] transition-colors duration-300 font-pt-sans font-normal"
             >
               Terms of use
             </a>
 
             <a
               href="#"
-              className="hover:text-[#FEC415] transition-colors duration-300 font-[420]"
+              className="hover:text-[#FEC415] transition-colors duration-300 font-pt-sans font-normal"
             >
               Media Kit
             </a>
             <a
               href="#"
-              className="hover:text-[#FEC415] transition-colors duration-300 font-[420]"
+              className="hover:text-[#FEC415] transition-colors duration-300 font-pt-sans font-normal"
             >
               Contacts
             </a>
           </div>
           <div className="text-center md:text-right">
-            <p>
+            <p className="font-pt-sans">
               © {currentYear}
               <a
                 href="#"
