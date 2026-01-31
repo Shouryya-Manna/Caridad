@@ -9,9 +9,7 @@ import { HeaderData } from "@/data/Header.data";
 
 type HeaderProps = { className?: string };
 
-export default function Header({
-  className,
-}: HeaderProps) {
+export default function Header({ className }: HeaderProps) {
   const [hidden, setHidden] = useState(false);
   const [lastScroll, setLastScroll] = useState(0);
   useEffect(() => {
@@ -27,15 +25,8 @@ export default function Header({
       setLastScroll(currentPosition);
     };
 
-    window.addEventListener(
-      "scroll",
-      handleScroll
-    );
-    return () =>
-      window.removeEventListener(
-        "scroll",
-        handleScroll
-      );
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScroll]);
 
   return (
@@ -44,34 +35,27 @@ export default function Header({
         `
     sticky top-0 z-50
     transition-transform duration-300 ease-in-out
-    ${
-      hidden
-        ? "-translate-y-full"
-        : "translate-y-0"
-    }
+    ${hidden ? "-translate-y-full" : "translate-y-0"}
     bg-primary py-1
   `,
-        className
+        className,
       )}
     >
-      <div className="max-w-[1239px] mx-auto grid grid-cols-[1fr_2fr_1fr] h-20 px-1">
+      <div className="max-w-[1239px] mx-auto grid grid-cols-[1fr_2fr_1fr] h-30 px-1">
         {/* Logo */}
-        <div className="relative flex max-w-90 w-41 h-20 justify-start items-center cursor-pointer">
+        <div className="relative flex max-w-90 w-28 h-20 justify-start items-center cursor-pointer">
           <Image
-            src="/caridad.svg"
+            src="/Furrfolks_Logo.png"
             alt=""
             fill
-            className="object-fill"
+            className="object-fill mt-2"
           />
         </div>
 
         {/* Navigation */}
         <div className="w-full flex justify-between items-center px-10 gap-14.5">
           {HeaderData.map((item, index) => (
-            <div
-              key={index}
-              className="relative group"
-            >
+            <div key={index} className="relative group">
               <div
                 className={`cursor-pointer font-[501] text-nowrap text-[16px] tracking-[0.1]
                           ${
@@ -80,19 +64,13 @@ export default function Header({
                               : "group-hover:underline underline-offset-4 ml-0"
                           }
                                     
-                           ${
-                             index < 1
-                               ? "pl-6.5"
-                               : ""
-                           }`}
+                           ${index < 1 ? "pl-6.5" : ""}`}
               >
                 <Link
                   href={
                     item.menu === "Home"
                       ? "/"
-                      : `/${item.menu
-                          .toLowerCase()
-                          .replace(/\s+/g, "-")}`
+                      : `/${item.menu.toLowerCase().replace(/\s+/g, "-")}`
                   }
                   className="font-semibold"
                 >
@@ -108,16 +86,14 @@ export default function Header({
                        opacity-0 invisible group-hover:opacity-100 group-hover:visible
                        transition-all duration-200 whitespace-nowrap"
               >
-                {item.submenu.map(
-                  (sub, index) => (
-                    <div
-                      key={index}
-                      className="py-2 hover:text-yellow-300 cursor-pointer"
-                    >
-                      {sub}
-                    </div>
-                  )
-                )}
+                {item.submenu.map((sub, index) => (
+                  <div
+                    key={index}
+                    className="py-2 hover:text-yellow-300 cursor-pointer"
+                  >
+                    {sub}
+                  </div>
+                ))}
               </div>
             </div>
           ))}
