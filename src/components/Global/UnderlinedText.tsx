@@ -13,8 +13,8 @@ export default function UnderlinedText({
   return (
     <span
       className={cn(
-        "text-base underline  text-tertiary underline-offset-9 decoration-yellow-200 cursor-pointer font-pt-sans font-bold text-left mx-4 inline-block",
-        className
+        "text-base underline  text-tertiary underline-offset-9 decoration-mellow-yellow cursor-pointer font-pt-sans font-bold text-left mx-4 inline-block hover:text-sea-green",
+        className,
       )}
     >
       {text}

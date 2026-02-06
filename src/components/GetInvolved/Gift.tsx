@@ -18,7 +18,7 @@ export default function Gift() {
           break the cycle of poverty.
         </p>
         <CustomButton
-          className="h-16 w-45 bg-[#FEC415] border-0"
+          className="h-16 w-45 bg-mellow-yellow border-0 text-tertiary hover:bg-salmon hover:text-white"
           buttonName="Shop"
         />
       </div>

@@ -44,7 +44,7 @@ export default function OurCauses() {
             <Card.Title />
             <Card.Paragraph className="max-w-[310px] my-5 leading-loose" />
             <RaisedAmount />
-            <button className="text-base text-tertiary font-bold cursor-pointer hover:bg-black hover:text-white transition-colors duration-300 rounded-4xl h-16.5 w-45 bg-[#FEC415]">
+            <button className="text-base text-white font-bold cursor-pointer hover:bg-sea-serpent hover:text-white transition-colors duration-300 rounded-4xl h-16.5 w-45 bg-salmon">
               Sponsor
             </button>
           </Card>

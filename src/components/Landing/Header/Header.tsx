@@ -32,12 +32,8 @@ export default function Header({ className }: HeaderProps) {
   return (
     <section
       className={cn(
-        `
-    sticky top-0 z-50
-    transition-transform duration-300 ease-in-out
-    ${hidden ? "-translate-y-full" : "translate-y-0"}
-    bg-primary py-1
-  `,
+        "sticky top-0 z-50 bg-white transition-transform duration-300 ease-in-out py-1",
+        hidden ? "-translate-y-full" : "translate-y-0",
         className,
       )}
     >
@@ -103,7 +99,7 @@ export default function Header({ className }: HeaderProps) {
         <div className="ml-auto flex gap-7 w-83 justify-end items-center mr-2">
           <SheetStyle />
           <Button
-            className="bg-transparent cursor-pointer text-[16px] font-pt-sans font-bold hover:bg-black hover:text-white rounded-4xl h-12.5 w-33 border border-black focus-visible:ring-0 focus-visible:ring-offset-0"
+            className="bg-salmon cursor-pointer text-[16px] font-pt-sans font-bold hover:text-white text-white hover:bg-sea-serpent rounded-4xl h-12.5 w-33  focus-visible:ring-0 focus-visible:ring-offset-0"
             variant="outline"
           >
             Donate

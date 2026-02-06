@@ -13,7 +13,7 @@ export default function Section01() {
             poverty or dealing with other
             difficult family circumstances.
           </p>
-          <button className="cursor-pointer text-[16px] text-tertiary font-bold hover:bg-black hover:text-white rounded-4xl h-16 w-40 bg-[#FEC415]">
+          <button className="cursor-pointer text-[16px] text-white font-bold hover:bg-sea-serpent hover:text-white rounded-4xl h-16 w-40 bg-salmon">
             Donate
           </button>
         </div>

@@ -6,7 +6,7 @@ export default function Stories() {
       <div className="max-w-[1239px] mx-auto ">
         {/* Header */}
         <div className="text-center mb-20">
-          <p className="mb-3 text-[20px] font-pt-sans font-normal tracking-normal uppercase">
+          <p className="text-sea-green mb-3 text-[20px] font-pt-sans font-normal tracking-normal uppercase">
             Stories
           </p>
           <h2 className="text-[50px] text-tertiary font-ubuntu-condensed font-bold mb-16 mx-auto">
@@ -24,7 +24,7 @@ export default function Stories() {
             />
           </div>
 
-          <div className="bg-[#FEC415] p-10 md:p-14 flex flex-col justify-center">
+          <div className="bg-mellow-yellow p-10 md:p-14 flex flex-col justify-center">
             <div className="text-6xl font-serif leading-none mb-3">
               “
             </div>

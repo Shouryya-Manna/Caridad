@@ -26,7 +26,7 @@ export default function LatestNews() {
                 20 Jun 2020
               </p>
 
-              <h3 className="text-[24px] leading-snug font-ubuntu-condensed font-bold m-4 transition-colors duration-300 hover:text-yellow-400 cursor-pointer">
+              <h3 className="text-[24px] leading-snug font-ubuntu-condensed font-bold m-4 transition-colors duration-300 hover:text-salmon cursor-pointer">
                 How a First-Time Streamer—and a
                 surprise visit from Dr.
                 Lupo—Raised $12,000 for Research
@@ -42,7 +42,7 @@ export default function LatestNews() {
               <p className="text-[16px] mx-4 mt-1 text-tertiary font-pt-sans mb-2">
                 20 Jun 2020
               </p>
-              <h3 className="text-[24px] leading-snug font-ubuntu-condensed font-bold m-4 transition-colors duration-300  hover:text-yellow-400 cursor-pointer">
+              <h3 className="text-[24px] leading-snug font-ubuntu-condensed font-bold m-4 transition-colors duration-300  hover:text-salmon cursor-pointer">
                 COVID-19 and Breast Cancer Care:
                 What Patients Need to Know
               </h3>
@@ -76,7 +76,7 @@ export default function LatestNews() {
                 20 Jun 2020
               </p>
 
-              <h3 className="text-[24px] leading-snug font-ubuntu-condensed font-bold m-4 transition-colors duration-300 hover:text-yellow-400 cursor-pointer">
+              <h3 className="text-[24px] leading-snug font-ubuntu-condensed font-bold m-4 transition-colors duration-300 hover:text-salmon cursor-pointer">
                 24 Jul 2020 Caridad-Supported
                 Study First to Determine z Risk
                 for Women With Gene Mutations, But
@@ -94,7 +94,7 @@ export default function LatestNews() {
                 20 Jun 2020
               </p>
 
-              <h3 className="text-[24px] leading-snug font-ubuntu-condensed font-bold m-4 transition-colors duration-300 hover:text-yellow-400 cursor-pointer">
+              <h3 className="text-[24px] leading-snug font-ubuntu-condensed font-bold m-4 transition-colors duration-300 hover:text-salmon cursor-pointer">
                 Treating Triple-Negative Breast
                 Cancer: Recent Progress and What's
                 to Come

@@ -13,7 +13,7 @@ export default function GStories() {
           thousands of children
         </h2>
 
-        <button className="block mx-auto my-8 font-bold text-tertiary text-[16px] cursor-pointer underline underline-offset-9 text-center decoration-yellow-200">
+        <button className="block mx-auto my-8 font-bold text-tertiary text-[16px] cursor-pointer underline underline-offset-9 text-center decoration-mellow-yellow hover:text-salmon">
           View all stories
         </button>
       </div>

@@ -27,7 +27,7 @@ export default function SponsorChild() {
             </div>
             <Card.Paragraph className="my-1 max-w-[280px] leading-loose" />
 
-            <button className="mt-5 text-base text-tertiary font-bold cursor-pointer hover:bg-black hover:text-white transition-colors duration-300 rounded-4xl h-16.5 w-45 bg-[#FEC415]">
+            <button className="mt-5 text-base text-white font-bold cursor-pointer hover:bg-sea-serpent hover:text-white transition-colors duration-300 rounded-4xl h-16.5 w-45 bg-salmon">
               Sponsor
             </button>
           </Card>

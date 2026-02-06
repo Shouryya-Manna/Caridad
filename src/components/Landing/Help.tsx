@@ -14,7 +14,7 @@ export default function Help() {
       <div className="mx-auto flex flex-col max-w-[1239px] px-1 items-center justify-center gap-10 ">
         {/* Header */}
         <div className="text-center">
-          <p className="mb-5 text-[20px] font-pt-sans font-medium text-tertiary">
+          <p className="text-sea-green mb-5 text-[20px] font-pt-sans font-medium text-tertiary">
             WHAT WE DO
           </p>
           <h2 className="text-4xl md:text-5xl font-ubuntu-condensed font-bold mb-18 mx-auto">

@@ -23,7 +23,7 @@ export default function () {
               className={`w-21 h-21 mx-5 my-4 rounded-full border-2 border-black flex items-center justify-center font-semibold text-base cursor-pointer transition-all duration-200 
                 ${
                   selectedAmount === items
-                    ? "bg-black text-white"
+                    ? "bg-salmon text-white"
                     : "bg-transparent text-tertiary"
                 }
   `}
@@ -45,7 +45,7 @@ export default function () {
             className="outline-none text-tertiary bg-transparent font-semibold text-base"
           />
         </div>
-        <Button className="cursor-pointer text-[16px] text-tertiary font-bold hover:bg-black hover:text-white rounded-4xl h-14 w-40 bg-[#FEC415]">
+        <Button className="cursor-pointer text-[16px] text-white font-bold hover:bg-sea-serpent hover:text-white rounded-4xl h-14 w-40 bg-salmon">
           Donate
         </Button>
       </div>

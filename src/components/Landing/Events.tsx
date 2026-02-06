@@ -9,7 +9,7 @@ export default function Events() {
     <section className="bg-[#F8F9F3] py-20">
       <div className="mx-auto max-w-[1239px] px-2 pb-10">
         <div className="mx-auto flex max-w-9xl items-center flex-col justify-center relative my-10">
-          <p className="mb-3 text-[20px] font-pt-sans font-normal tracking-normal uppercase">
+          <p className="text-sea-green mb-3 text-[20px] font-pt-sans font-normal tracking-normal uppercase">
             Events
           </p>
           <h2 className="text-[50px] font-ubuntu-condensed font-bold mb-16 mx-auto">
@@ -22,7 +22,7 @@ export default function Events() {
         <div className="">
           <div className="flex items-center justify-between py-8 px-8">
             <div className="flex items-center gap-13">
-              <div className="flex h-23 w-23 flex-col items-center justify-center rounded-full bg-[#FEC415] text-tertiary">
+              <div className="flex h-23 w-23 flex-col items-center justify-center rounded-full bg-mellow-yellow text-tertiary">
                 <span className="text-[24px] font-ubuntu-condensed font-bold leading-none">
                   08
                 </span>
@@ -32,7 +32,7 @@ export default function Events() {
               </div>
 
               {/* Title */}
-              <h3 className="text-[24px] font-ubuntu-condensed font-bold text-tertiary hover:text-yellow-400 transition-colors duration-200 cursor-pointer">
+              <h3 className="text-[24px] font-ubuntu-condensed font-bold text-tertiary hover:text-salmon transition-colors duration-200 cursor-pointer">
                 Big Pink Jump March
               </h3>
             </div>
@@ -59,7 +59,7 @@ export default function Events() {
 
           <div className="flex items-center justify-between py-8 p-10">
             <div className="flex items-center gap-13">
-              <div className="flex h-23 w-23 flex-col items-center justify-center rounded-full bg-[#FEC415] text-tertiary">
+              <div className="flex h-23 w-23 flex-col items-center justify-center rounded-full bg-mellow-yellow text-tertiary">
                 <span className="text-[24px] font-ubuntu-condensed font-bold leading-none">
                   16
                 </span>
@@ -68,7 +68,7 @@ export default function Events() {
                 </span>
               </div>
 
-              <h3 className="text-[24px] font-ubuntu-condensed font-bold text-tertiary hover:text-yellow-400 transition-colors duration-200 cursor-pointer">
+              <h3 className="text-[24px] font-ubuntu-condensed font-bold text-tertiary hover:text-salmon transition-colors duration-200 cursor-pointer">
                 Younger Women Together Online
               </h3>
             </div>
@@ -94,7 +94,7 @@ export default function Events() {
 
           <div className="flex items-center justify-between py-8 p-10">
             <div className="flex items-center gap-13">
-              <div className="flex h-23 w-23 flex-col items-center justify-center rounded-full bg-[#FEC415] text-tertiary">
+              <div className="flex h-23 w-23 flex-col items-center justify-center rounded-full bg-mellow-yellow text-tertiary">
                 <span className="text-[24px] font-ubuntu-condensed font-bold leading-none">
                   21
                 </span>
@@ -103,7 +103,7 @@ export default function Events() {
                 </span>
               </div>
 
-              <h3 className="text-[24px] font-ubuntu-condensed font-bold text-tertiary hover:text-yellow-400 transition-colors duration-200 cursor-pointer">
+              <h3 className="text-[24px] font-ubuntu-condensed font-bold text-tertiary hover:text-salmon transition-colors duration-200 cursor-pointer">
                 Women V Cancer - Ride the Night
               </h3>
             </div>
@@ -130,7 +130,7 @@ export default function Events() {
 
         {/* Footer link */}
         <div className="mt-10 text-center">
-          <UnderlinedText text="View all events" />
+          <UnderlinedText text="View all events" className="" />
         </div>
       </div>
     </section>

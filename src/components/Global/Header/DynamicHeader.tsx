@@ -121,7 +121,7 @@ export default function DynamicHeader({
         {/* Buttons */}
         <div className="ml-auto flex gap-7 w-83 justify-end items-center mr-2">
           <Button
-            className="bg-white cursor-pointer text-[16px] font-[650] hover:bg-black hover:text-white rounded-4xl h-14 w-35 border border-white focus-visible:ring-0 focus-visible:ring-offset-0"
+            className="bg-salmon cursor-pointer text-[16px] font-[650] hover:bg-sea-serpent hover:text-white text-white rounded-4xl h-14 w-35 border border-salmon focus-visible:ring-0 focus-visible:ring-offset-0"
             variant="outline"
           >
             Donate

@@ -14,7 +14,7 @@ export default function CustomButton({
     <>
       <Button
         className={cn(
-          "cursor-pointer text-[16px] font-[650] hover:bg-black hover:text-white rounded-4xl border border-black text-tertiary focus-visible:ring-0 focus-visible:ring-offset-0",
+          "cursor-pointer text-[16px] font-[650] hover:bg-sea-serpent hover:text-white rounded-4xl border border-salmon text-white bg-salmon focus-visible:ring-0 focus-visible:ring-offset-0",
           className
         )}
       >

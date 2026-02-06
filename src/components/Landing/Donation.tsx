@@ -6,7 +6,7 @@ export default function Donation() {
     <section className="mx-auto max-w-[1239px] px-1 py-24 mt-5">
       {/* Text Container */}
       <div className="mb-16 text-center">
-        <p className="mb-3 text-[20px] font-pt-sans font-normal tracking-normal uppercase">
+        <p className="text-sea-green mb-3 text-[20px] font-pt-sans font-normal tracking-normal uppercase">
           Get Involved
         </p>
         <h2 className="text-[50px] font-ubuntu-condensed font-bold mb-12 mx-auto">
@@ -26,7 +26,7 @@ export default function Donation() {
         </div>
 
         {/* Actions */}
-        <div className="flex flex-col justify-center bg-[#FEC415] px-12 py-6">
+        <div className="flex flex-col justify-center bg-mellow-yellow px-12 py-6">
           {[
             "Donate",
             "Contribute",
@@ -45,7 +45,7 @@ export default function Donation() {
                     fill
                     className="ml-50 object-contain opacity-60"
                   />
-                  <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-tertiary transition-all duration-500 group-hover:w-full"></span>
+                  <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-sea-green transition-all duration-500 group-hover:w-full"></span>
                 </h3>
               </div>
 

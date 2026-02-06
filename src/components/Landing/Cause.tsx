@@ -16,7 +16,7 @@ export default function Cause() {
 
             {/* heading */}
             <h2 className="font-sans absolute right-[-250px] top-20 z-20 -translate-y-1/2 text-[50px]">
-              <p className="mx-auto mb-6 text-[20px] tracking-wide font-pt-sans font-normal">
+              <p className="text-sea-green mx-auto mb-6 text-[20px] tracking-wide font-pt-sans font-normal">
                 CAUSE
               </p>
               <span className="block font-ubuntu-condensed font-extrabold leading-[1.2] text-tertiary">
@@ -75,7 +75,7 @@ export default function Cause() {
               research is undertaken in this area
               now to help save their lives.
             </p>
-            <Button className="my-5 mt-8 cursor-pointer text-[16px] text-tertiary font-pt-sans font-bold hover:bg-black hover:text-white rounded-4xl h-14 w-40 bg-[#FEC415]">
+            <Button className="my-5 mt-8 cursor-pointer text-[16px] text-white font-pt-sans font-bold hover:bg-sea-serpent hover:text-white rounded-4xl h-14 w-40 bg-salmon">
               Donate
             </Button>
           </div>

@@ -13,7 +13,7 @@ export default function GetInvolved() {
             poverty or dealing with other
             difficult family circumstances.
           </p>
-          <button className="font-bold text-tertiary text-[16px] cursor-pointer underline underline-offset-9 text-left decoration-yellow-200">
+          <button className="font-bold text-tertiary text-[16px] cursor-pointer underline underline-offset-9 text-left decoration-mellow-yellow hover:text-salmon">
             View all causes
           </button>
         </div>
