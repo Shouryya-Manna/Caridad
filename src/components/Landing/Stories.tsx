@@ -25,27 +25,18 @@ export default function Stories() {
           </div>
 
           <div className="bg-mellow-yellow p-10 md:p-14 flex flex-col justify-center">
-            <div className="text-6xl font-serif leading-none mb-3">
-              “
-            </div>
+            <div className="text-6xl font-serif leading-none mb-3">“</div>
             <p className="text-[24px] text-tertiary font-pt-sans font-bold leading-[1.3] mb-8">
-              "Being a survivor now, I realized I
-              was not educated or aware about what
-              breast cancer actually was and how
-              it impacted and affected people."
+              "Being a survivor now, I realized I was not educated or aware
+              about what breast cancer actually was and how it impacted and
+              affected people."
             </p>
             <div className="text-[16px] text-tertiary font-pt-sans flex flex-col gap-2.5">
               <p className="">Rena Hart</p>
-              <p>
-                Breast Cancer Survivor & Caregiver
-                Supporter
-              </p>
+              <p>Breast Cancer Survivor & Caregiver Supporter</p>
             </div>
 
-            <UnderlinedText
-              text="Read more"
-              className="border-b-2 mt-8 border-black mx-0"
-            />
+            <UnderlinedText text="Read more" className="mx-0 my-8" />
           </div>
         </div>
       </div>
